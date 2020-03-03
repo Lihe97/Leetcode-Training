@@ -22,6 +22,7 @@ func twoSum(nums []int, target int) []int {
 		if _, ok := hashMap [t];ok==true{
 			res = append(res, hashMap[t])
 			res = append(res, i)
+
 			return res
 
 		}
