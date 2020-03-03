@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Medium/2.两数之和.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/1232. 缀点成线.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/206.反转链表.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/796. 旋转字符串.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/面试题 01.02. 判定是否互为字符重排.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/面试题01.03URL优化.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/08.02迷路的机器人.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/面试题 01.08. 零矩阵.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +35,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1YaLZD8KgytmLfPZyoSjPFfrPVN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
