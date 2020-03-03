@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Easy/383. 赎金信.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/334.递增的三元子序列.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
       <recent name="$PROJECT_DIR$/Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 383. 赎金信.go">
+  <component name="RunManager" selected="Go Build.go build 334.递增的三元子序列.go">
     <configuration name="go build 1.两数之和.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -66,6 +66,15 @@
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/Medium/2.两数之和.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 334.递增的三元子序列.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Medium/334.递增的三元子序列.go" />
       <package value="Leetcode-Training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -90,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 334.递增的三元子序列.go" />
         <item itemvalue="Go Build.go build 383. 赎金信.go" />
         <item itemvalue="Go Build.go build 2.两数之和.go" />
         <item itemvalue="Go Build.go build 1.两数之和.go" />
@@ -129,22 +139,22 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="303" y="31" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1583176186419" />
-    <state width="1398" height="211" key="GridCell.Tab.0.bottom" timestamp="1583230367166">
+    <state width="1398" height="211" key="GridCell.Tab.0.bottom" timestamp="1583246161504">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="211" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1583230367166" />
-    <state width="1398" height="211" key="GridCell.Tab.0.center" timestamp="1583230367165">
+    <state width="1398" height="211" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1583246161504" />
+    <state width="1398" height="211" key="GridCell.Tab.0.center" timestamp="1583246161504">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="211" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1583230367165" />
-    <state width="1398" height="211" key="GridCell.Tab.0.left" timestamp="1583230367165">
+    <state width="1398" height="211" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1583246161504" />
+    <state width="1398" height="211" key="GridCell.Tab.0.left" timestamp="1583246161503">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="211" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1583230367165" />
-    <state width="1398" height="211" key="GridCell.Tab.0.right" timestamp="1583230367166">
+    <state width="1398" height="211" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1583246161503" />
+    <state width="1398" height="211" key="GridCell.Tab.0.right" timestamp="1583246161504">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="211" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1583230367166" />
+    <state width="1398" height="211" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1583246161504" />
     <state x="221" y="72" key="SettingsEditor" timestamp="1583204312947">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
