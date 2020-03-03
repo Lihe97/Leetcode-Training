@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +42,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -67,10 +68,10 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="303" y="31" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1583176186419" />
-    <state x="221" y="72" key="SettingsEditor" timestamp="1583176011499">
+    <state x="221" y="72" key="SettingsEditor" timestamp="1583204312947">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state x="221" y="72" key="SettingsEditor/0.23.1440.820@0.23.1440.820" timestamp="1583176011498" />
+    <state x="221" y="72" key="SettingsEditor/0.23.1440.820@0.23.1440.820" timestamp="1583204312947" />
     <state x="320" y="173" key="Vcs.Push.Dialog.v2" timestamp="1583176188525">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
