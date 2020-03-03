@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/1.两数之和.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +44,32 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RunManager" selected="Go Build.go build 1.两数之和.go">
+    <configuration name="go build 1.两数之和.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/1.两数之和.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build Leetcode-Training" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/1.两数之和.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build 1.两数之和.go" />
+        <item itemvalue="Go Build.go build Leetcode-Training" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -64,10 +90,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="'first &amp; test'" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="413" y="75" key="#go_build_Leetcode-Training" timestamp="1583206488167">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="413" y="75" key="#go_build_Leetcode-Training/0.23.1440.820@0.23.1440.820" timestamp="1583206488167" />
     <state x="303" y="31" key="CommitChangelistDialog2" timestamp="1583176186419">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="303" y="31" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1583176186419" />
+    <state width="1398" height="211" key="GridCell.Tab.0.bottom" timestamp="1583206516523">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1398" height="211" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1583206516523" />
+    <state width="1398" height="211" key="GridCell.Tab.0.center" timestamp="1583206516522">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1398" height="211" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1583206516522" />
+    <state width="1398" height="211" key="GridCell.Tab.0.left" timestamp="1583206516522">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1398" height="211" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1583206516522" />
+    <state width="1398" height="211" key="GridCell.Tab.0.right" timestamp="1583206516522">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state width="1398" height="211" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1583206516522" />
     <state x="221" y="72" key="SettingsEditor" timestamp="1583204312947">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
@@ -76,5 +122,9 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="320" y="173" key="Vcs.Push.Dialog.v2/0.23.1440.820@0.23.1440.820" timestamp="1583176188525" />
+    <state x="385" y="167" width="670" height="676" key="search.everywhere.popup" timestamp="1583206461197">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="385" y="167" width="670" height="676" key="search.everywhere.popup/0.23.1440.820@0.23.1440.820" timestamp="1583206461197" />
   </component>
 </project>
