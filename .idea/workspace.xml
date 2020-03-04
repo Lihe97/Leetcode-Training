@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Easy/994. 腐烂的橘子.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/面试题 02.03. 删除中间节点.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/984. 不含 AAA 或 BBB 的字符串.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
