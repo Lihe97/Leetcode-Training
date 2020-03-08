@@ -5,7 +5,7 @@ import (
 )
 //dp问题
 //根据样例[1,2,5] dp[i] = min(dp[i-1],dp[i-2],dp[i-5])+1
-//test
+//test1
 func coinChange(coins []int, amount int) int {
 	dp := make([]int, amount+1)
 	for i := 0; i <= amount; i++ {
