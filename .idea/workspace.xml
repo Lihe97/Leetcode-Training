@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Medium/322. 零钱兑换.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/322. 零钱兑换.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/121. 买卖股票的最佳时机.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
       <recent name="$PROJECT_DIR$/Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 322. 零钱兑换.go">
+  <component name="RunManager" selected="Go Build.go build 121. 买卖股票的最佳时机.go">
     <configuration name="go build 1071. 字符串的最大公因子.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -69,11 +70,11 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 118.杨辉三角.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 121. 买卖股票的最佳时机.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Easy/118.杨辉三角.go" />
+      <filePath value="$PROJECT_DIR$/Easy/121. 买卖股票的最佳时机.go" />
       <package value="Leetcode-Training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -98,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 121. 买卖股票的最佳时机.go" />
         <item itemvalue="Go Build.go build 322. 零钱兑换.go" />
         <item itemvalue="Go Build.go build 1071. 字符串的最大公因子.go" />
         <item itemvalue="Go Build.go build 1103. 分糖果 II.go" />
         <item itemvalue="Go Build.go build 78.子集.go" />
-        <item itemvalue="Go Build.go build 118.杨辉三角.go" />
       </list>
     </recent_temporary>
   </component>
@@ -138,22 +139,22 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="303" y="31" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1583176186419" />
-    <state width="1398" height="180" key="GridCell.Tab.0.bottom" timestamp="1583675583359">
+    <state width="1398" height="180" key="GridCell.Tab.0.bottom" timestamp="1583715921485">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="180" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1583675583359" />
-    <state width="1398" height="180" key="GridCell.Tab.0.center" timestamp="1583675583358">
+    <state width="1398" height="180" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1583715921485" />
+    <state width="1398" height="180" key="GridCell.Tab.0.center" timestamp="1583715921485">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="180" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1583675583358" />
-    <state width="1398" height="180" key="GridCell.Tab.0.left" timestamp="1583675583358">
+    <state width="1398" height="180" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1583715921485" />
+    <state width="1398" height="180" key="GridCell.Tab.0.left" timestamp="1583715921485">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="180" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1583675583358" />
-    <state width="1398" height="180" key="GridCell.Tab.0.right" timestamp="1583675583358">
+    <state width="1398" height="180" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1583715921485" />
+    <state width="1398" height="180" key="GridCell.Tab.0.right" timestamp="1583715921485">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="180" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1583675583358" />
+    <state width="1398" height="180" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1583715921485" />
     <state x="221" y="72" key="SettingsEditor" timestamp="1583204312947">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
