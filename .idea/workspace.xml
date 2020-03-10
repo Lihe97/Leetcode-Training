@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Easy/543. 二叉树的直径.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/754. 到达终点数字.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/1078. Bigram 分词.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/面试题06. 从尾到头打印链表.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
       <recent name="$PROJECT_DIR$/Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 754. 到达终点数字.go">
+  <component name="RunManager" selected="Go Build.go build 1078. Bigram 分词.go">
     <configuration name="go build 面试题10- II. 青蛙跳台阶问题.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -62,20 +62,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 1078. Bigram 分词.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Easy/1078. Bigram 分词.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build 121. 买卖股票的最佳时机.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/Easy/121. 买卖股票的最佳时机.go" />
-      <package value="Leetcode-Training" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 322. 零钱兑换.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode-Training" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Medium/322. 零钱兑换.go" />
       <package value="Leetcode-Training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -100,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 1078. Bigram 分词.go" />
         <item itemvalue="Go Build.go build 754. 到达终点数字.go" />
         <item itemvalue="Go Build.go build 面试题10- II. 青蛙跳台阶问题.go" />
         <item itemvalue="Go Build.go build 面试题58 - II. 左旋转字符串.go" />
         <item itemvalue="Go Build.go build 121. 买卖股票的最佳时机.go" />
-        <item itemvalue="Go Build.go build 322. 零钱兑换.go" />
       </list>
     </recent_temporary>
   </component>
