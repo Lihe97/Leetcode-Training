@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Medium/面试题 16.21. 交换和.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/1013. 将数组分成和相等的三个部分.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/343. 整数拆分.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/795. 区间子数组个数.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,12 +53,12 @@
       <recent name="$PROJECT_DIR$/Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 1078. Bigram 分词.go">
-    <configuration name="go build 面试题10- II. 青蛙跳台阶问题.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build 343. 整数拆分.go">
+    <configuration name="go build 1013. 将数组分成和相等的三个部分.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Easy/面试题10- II. 青蛙跳台阶问题.go" />
+      <filePath value="$PROJECT_DIR$/Easy/1013. 将数组分成和相等的三个部分.go" />
       <package value="Leetcode-Training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -70,20 +72,11 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 121. 买卖股票的最佳时机.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 343. 整数拆分.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Easy/121. 买卖股票的最佳时机.go" />
-      <package value="Leetcode-Training" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 面试题58 - II. 左旋转字符串.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode-Training" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Easy/面试题58 - II. 左旋转字符串.go" />
+      <filePath value="$PROJECT_DIR$/Medium/343. 整数拆分.go" />
       <package value="Leetcode-Training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -97,13 +90,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 967. 连续差相同的数字.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Medium/967. 连续差相同的数字.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 343. 整数拆分.go" />
+        <item itemvalue="Go Build.go build 1013. 将数组分成和相等的三个部分.go" />
+        <item itemvalue="Go Build.go build 967. 连续差相同的数字.go" />
         <item itemvalue="Go Build.go build 1078. Bigram 分词.go" />
         <item itemvalue="Go Build.go build 754. 到达终点数字.go" />
-        <item itemvalue="Go Build.go build 面试题10- II. 青蛙跳台阶问题.go" />
-        <item itemvalue="Go Build.go build 面试题58 - II. 左旋转字符串.go" />
-        <item itemvalue="Go Build.go build 121. 买卖股票的最佳时机.go" />
       </list>
     </recent_temporary>
   </component>
@@ -139,22 +141,22 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="303" y="31" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1583176186419" />
-    <state width="1398" height="180" key="GridCell.Tab.0.bottom" timestamp="1583810769729">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1583890982274">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="180" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1583810769729" />
-    <state width="1398" height="180" key="GridCell.Tab.0.center" timestamp="1583810769729">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1583890982274" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1583890982274">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="180" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1583810769729" />
-    <state width="1398" height="180" key="GridCell.Tab.0.left" timestamp="1583810769729">
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1583890982274" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1583890982273">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="180" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1583810769729" />
-    <state width="1398" height="180" key="GridCell.Tab.0.right" timestamp="1583810769729">
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1583890982273" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1583890982274">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="180" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1583810769729" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1583890982274" />
     <state x="221" y="72" key="SettingsEditor" timestamp="1583204312947">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
@@ -163,6 +165,10 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="320" y="173" key="Vcs.Push.Dialog.v2/0.23.1440.820@0.23.1440.820" timestamp="1583176188525" />
+    <state x="499" y="163" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1583888607596">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="499" y="163" key="com.goide.refactor.move.GoMoveDeclarationDialog/0.23.1440.820@0.23.1440.820" timestamp="1583888607596" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1583334501761">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
