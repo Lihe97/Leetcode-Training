@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Easy/1013. 将数组分成和相等的三个部分.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/343. 整数拆分.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/795. 区间子数组个数.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/455. 分发饼干.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/376. 摆动序列.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium/795. 区间子数组个数.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/795. 区间子数组个数.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,21 +53,12 @@
       <recent name="$PROJECT_DIR$/Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 343. 整数拆分.go">
+  <component name="RunManager" selected="Go Build.go build 376. 摆动序列.go">
     <configuration name="go build 1013. 将数组分成和相等的三个部分.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/Easy/1013. 将数组分成和相等的三个部分.go" />
-      <package value="Leetcode-Training" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 1078. Bigram 分词.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode-Training" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Easy/1078. Bigram 分词.go" />
       <package value="Leetcode-Training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -81,11 +72,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 754. 到达终点数字.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 376. 摆动序列.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Medium/754. 到达终点数字.go" />
+      <filePath value="$PROJECT_DIR$/Medium/376. 摆动序列.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 455. 分发饼干.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Easy/455. 分发饼干.go" />
       <package value="Leetcode-Training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -101,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 376. 摆动序列.go" />
+        <item itemvalue="Go Build.go build 455. 分发饼干.go" />
         <item itemvalue="Go Build.go build 343. 整数拆分.go" />
         <item itemvalue="Go Build.go build 1013. 将数组分成和相等的三个部分.go" />
         <item itemvalue="Go Build.go build 967. 连续差相同的数字.go" />
-        <item itemvalue="Go Build.go build 1078. Bigram 分词.go" />
-        <item itemvalue="Go Build.go build 754. 到达终点数字.go" />
       </list>
     </recent_temporary>
   </component>
@@ -141,22 +141,22 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="303" y="31" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1583176186419" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1583890982274">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1583903465973">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1583890982274" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1583890982274">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1583903465973" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1583903465973">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1583890982274" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1583890982273">
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1583903465973" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1583903465972">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1583890982273" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1583890982274">
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1583903465972" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1583903465973">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1583890982274" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1583903465973" />
     <state x="221" y="72" key="SettingsEditor" timestamp="1583204312947">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
