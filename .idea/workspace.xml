@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Easy/349. 两个数组的交集.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/350. 两个数组的交集 II.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/747. 至少是其他数字两倍的最大数.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/面试题 02.02. 返回倒数第 k 个节点.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Easy/206.反转链表.go" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/206.反转链表.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,21 +53,21 @@
       <recent name="$PROJECT_DIR$/Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 350. 两个数组的交集 II.go">
-    <configuration name="go build 面试题 16.05. 阶乘尾数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build 面试题05. 替换空格.go">
+    <configuration name="go build 面试题 02.02. 返回倒数第 k 个节点.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Easy/面试题 16.05. 阶乘尾数.go" />
+      <filePath value="$PROJECT_DIR$/Easy/面试题 02.02. 返回倒数第 k 个节点.go" />
       <package value="Leetcode-Training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 300. 最长上升子序列.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 面试题05. 替换空格.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Medium/300. 最长上升子序列.go" />
+      <filePath value="$PROJECT_DIR$/Easy/面试题05. 替换空格.go" />
       <package value="Leetcode-Training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -89,22 +90,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Leetcode-Training/Easy" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 747. 至少是其他数字两倍的最大数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/Easy/349. 两个数组的交集.go" />
-      <package value="Leetcode-Training/Easy" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Easy/747. 至少是其他数字两倍的最大数.go" />
+      <package value="Leetcode-Training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 面试题05. 替换空格.go" />
+        <item itemvalue="Go Build.go build 面试题 02.02. 返回倒数第 k 个节点.go" />
+        <item itemvalue="Go Build.go build 747. 至少是其他数字两倍的最大数.go" />
         <item itemvalue="Go Build.go build 350. 两个数组的交集 II.go" />
         <item itemvalue="Go Build.go build 349. 两个数组的交集.go" />
-        <item itemvalue="Go Build.go build Leetcode-Training/Easy" />
-        <item itemvalue="Go Build.go build 面试题 16.05. 阶乘尾数.go" />
-        <item itemvalue="Go Build.go build 300. 最长上升子序列.go" />
       </list>
     </recent_temporary>
   </component>
@@ -144,25 +145,25 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="303" y="31" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1583176186419" />
-    <state width="1398" height="289" key="GridCell.Tab.0.bottom" timestamp="1584162954466">
+    <state width="1398" height="289" key="GridCell.Tab.0.bottom" timestamp="1584175366109">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="289" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1584162954466" />
+    <state width="1398" height="289" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1584175366109" />
     <state width="1398" height="289" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1584019687174" />
-    <state width="1398" height="289" key="GridCell.Tab.0.center" timestamp="1584162954465">
+    <state width="1398" height="289" key="GridCell.Tab.0.center" timestamp="1584175366108">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="289" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1584162954465" />
+    <state width="1398" height="289" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1584175366108" />
     <state width="1398" height="289" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1584019687173" />
-    <state width="1398" height="289" key="GridCell.Tab.0.left" timestamp="1584162954465">
+    <state width="1398" height="289" key="GridCell.Tab.0.left" timestamp="1584175366108">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="289" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1584162954465" />
+    <state width="1398" height="289" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1584175366108" />
     <state width="1398" height="289" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1584019687173" />
-    <state width="1398" height="289" key="GridCell.Tab.0.right" timestamp="1584162954465">
+    <state width="1398" height="289" key="GridCell.Tab.0.right" timestamp="1584175366108">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="289" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1584162954465" />
+    <state width="1398" height="289" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1584175366108" />
     <state width="1398" height="289" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1584019687174" />
     <state width="1398" height="262" key="GridCell.Tab.1.bottom" timestamp="1584014496843">
       <screen x="0" y="23" width="1440" height="820" />
