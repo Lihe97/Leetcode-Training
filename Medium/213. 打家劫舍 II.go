@@ -1,12 +1,17 @@
 package main
-
-import "fmt"
-
 func rob(nums []int) int {
-	dp := make([]int,len(nums))
 	if len(nums) == 0{
 		return 0
 	}
+	dp := make([]int,len(nums))
+	dp[0] = nums[0]
+	if len(nums) == 1{
+		return dp[0]
+	}
+	return maxx(robb(nums[1:]),robb(nums[:len(nums)-1]))
+}
+func robb(nums []int) int {
+	dp := make([]int,len(nums))
 	dp[0] = nums[0]
 	if len(nums) == 1{
 		return dp[0]
@@ -36,9 +41,5 @@ func maxx(a,b int)int{
 
 }
 func main() {
-	a := []int{1,2,3,1}
-	fmt.Println(rob(a[1:]))
-	fmt.Println(rob(a[:len(a)-1]))
-
-	fmt.Println(maxx(rob(a[1:]),rob(a[:len(a)-1])))
+	
 }
