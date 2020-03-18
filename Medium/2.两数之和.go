@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 //给出两个 非空 的链表用来表示两个非负的整数。其中，它们各自的位数是按照 逆序 的方式存储的，并且它们的每个节点只能存储 一位 数字。
 //
@@ -21,26 +23,31 @@ type ListNode struct {
 	Next *ListNode
 }
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
-	var result *ListNode
-	next := &result
+	res := &ListNode{}
+	cur := res
 	num := 0
-	for l1 != nil || l2 != nil || num > 0 {
-		if l1 != nil {
-			num += l1.Val
+	for l1 != nil || l2 != nil || num > 0{
+		sum:=0
+		if l1!=nil{
+			sum += l1.Val
 			l1 = l1.Next
 		}
-		if l2 != nil {
-			num += l2.Val
+		if l2!=nil{
+			sum  += l2.Val
 			l2 = l2.Next
 		}
-		*next = &ListNode{
-			Val:  num % 10,
+		sum += num
+		num = sum/10
+		temp := &ListNode{
+			Val:  sum%10,
 			Next: nil,
 		}
-		num = num / 10
-		next = &((*next).Next)
+		cur.Next = temp
+		cur = cur.Next
+
 	}
-	return result
+	return res.Next
+
 }
 func main() {
 	a := new(ListNode)
