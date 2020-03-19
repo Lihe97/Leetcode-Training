@@ -1,26 +1,21 @@
 package main
 
 import "fmt"
-type ListNode struct {
-	Val int
-	Next *ListNode
-}
+
 func kthToLast(head *ListNode, k int) int {
-	cur := 1
-	var res *ListNode
-	temp := head
-	for head!=nil{
-		if k == cur{
-			res = temp
-		}
-		if cur >k{
-			res = res.Next
-		}
-		cur ++
-		head= head.Next
+
+	first := head
+	second := head
+	for i:= 0 ; i < k ; i ++{
+		first = first.Next
+	}
+	for first!=nil{
+		first = first.Next
+		second = second.Next
 
 	}
-	return res.Val
+	return second.Val
+
 }
 
 func main() {
