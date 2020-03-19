@@ -1,10 +1,6 @@
 package main
 
-import "fmt"
-type ListNode struct {
-	Val int
-	Next *ListNode
-}
+
 func deleteDuplicates(head *ListNode) *ListNode {
 
 	prev := &ListNode{0, head}
@@ -28,21 +24,6 @@ func deleteDuplicates(head *ListNode) *ListNode {
 	return prev.Next
 }
 func main() {
-	d:= ListNode{
-		Val:  4,
-		Next: nil,
-	}
-	c:= ListNode{
-		Val:  3,
-		Next: &d,
-	}
-	b := ListNode{
-		Val:  2,
-		Next: &c,
-	}
-	a:= ListNode{
-		Val:  2,
-		Next: &b,
-	}
-	fmt.Println(deleteDuplicates(&a))
+
+
 }

@@ -18,10 +18,10 @@ import (
 //
 //模拟加法，自己写的代码太乱，把解答的放上来了
 //有很多坑，如[1],[9,9,9,9,9]这种进位问题
-type ListNode struct {
-	Val int
-	Next *ListNode
-}
+//type ListNode struct {
+//	Val int
+//	Next *ListNode
+//}
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	res := &ListNode{}
 	cur := res
