@@ -8,24 +8,25 @@ type ListNode struct {
 	Next *ListNode
 }
 func deleteDuplicates(head *ListNode) *ListNode {
+
 	pre := &ListNode{
-		Val: 0,
+		Val: -1,
 		Next: head,
 	}
 	point := pre
-	count := 1
-	for head.Next != nil && head!=nil {
+	count := 0
+	for head != nil && head.Next!=nil {
 		for head.Next != nil && head.Val == head.Next.Val {
 			count++
 			head = head.Next
 		}
-		if count == 1 {
+		if count > 0  {
 			point.Next = head.Next
-			point = point.Next
 			head = head.Next
+			count = 0
 		} else {
+			point = head
 			head = head.Next
-			count = 1
 		}
 	}
 	return pre.Next
@@ -40,7 +41,7 @@ func main() {
 		Next: &d,
 	}
 	b := ListNode{
-		Val:  1,
+		Val:  2,
 		Next: &c,
 	}
 	a:= ListNode{
