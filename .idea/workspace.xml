@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="'first &amp; test'">
-      <change afterPath="$PROJECT_DIR$/Easy/203. 移除链表元素.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/面试题40. 最小的k个数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/24. 两两交换链表中的节点.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/61. 旋转链表.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/86. 分隔链表.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hard/23. 合并K个排序链表.go" beforeDir="false" afterPath="$PROJECT_DIR$/Hard/23. 合并K个排序链表.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Medium/82. 删除排序链表中的重复元素 II.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/82. 删除排序链表中的重复元素 II.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium/24. 两两交换链表中的节点.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/24. 两两交换链表中的节点.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
       <recent name="$PROJECT_DIR$/Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 25. K 个一组翻转链表.go">
+  <component name="RunManager" selected="Go Build.go build 61. 旋转链表.go">
     <configuration name="go build 24. 两两交换链表中的节点.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -76,6 +74,15 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 61. 旋转链表.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Medium/61. 旋转链表.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build 82. 删除排序链表中的重复元素 II.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -85,31 +92,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 83. 删除排序链表中的重复元素.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 86. 分隔链表.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Easy/83. 删除排序链表中的重复元素.go" />
+      <filePath value="$PROJECT_DIR$/Medium/86. 分隔链表.go" />
       <package value="Leetcode-Training" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build Leetcode-Training/Medium" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode-Training" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/Medium/82. 删除排序链表中的重复元素 II.go" />
-      <package value="Leetcode-Training/Medium" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 61. 旋转链表.go" />
+        <item itemvalue="Go Build.go build 86. 分隔链表.go" />
         <item itemvalue="Go Build.go build 25. K 个一组翻转链表.go" />
         <item itemvalue="Go Build.go build 24. 两两交换链表中的节点.go" />
         <item itemvalue="Go Build.go build 82. 删除排序链表中的重复元素 II.go" />
-        <item itemvalue="Go Build.go build Leetcode-Training/Medium" />
-        <item itemvalue="Go Build.go build 83. 删除排序链表中的重复元素.go" />
       </list>
     </recent_temporary>
   </component>
@@ -153,42 +151,42 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="303" y="31" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1584324978571" />
-    <state width="1398" height="248" key="GridCell.Tab.0.bottom" timestamp="1584679672510">
+    <state width="1398" height="248" key="GridCell.Tab.0.bottom" timestamp="1584779507046">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1584679672510" />
+    <state width="1398" height="248" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1584779507046" />
     <state width="1398" height="289" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1584019687174" />
-    <state width="1398" height="248" key="GridCell.Tab.0.center" timestamp="1584679672509">
+    <state width="1398" height="248" key="GridCell.Tab.0.center" timestamp="1584779507045">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1584679672509" />
+    <state width="1398" height="248" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1584779507045" />
     <state width="1398" height="289" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1584019687173" />
-    <state width="1398" height="248" key="GridCell.Tab.0.left" timestamp="1584679672509">
+    <state width="1398" height="248" key="GridCell.Tab.0.left" timestamp="1584779507045">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1584679672509" />
+    <state width="1398" height="248" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1584779507045" />
     <state width="1398" height="289" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1584019687173" />
-    <state width="1398" height="248" key="GridCell.Tab.0.right" timestamp="1584679672509">
+    <state width="1398" height="248" key="GridCell.Tab.0.right" timestamp="1584779507046">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1584679672509" />
+    <state width="1398" height="248" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1584779507046" />
     <state width="1398" height="289" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1584019687174" />
-    <state width="1398" height="262" key="GridCell.Tab.1.bottom" timestamp="1584014496843">
+    <state width="1398" height="262" key="GridCell.Tab.1.bottom" timestamp="1584779283214">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="262" key="GridCell.Tab.1.bottom/0.23.1440.820@0.23.1440.820" timestamp="1584014496843" />
-    <state width="1398" height="262" key="GridCell.Tab.1.center" timestamp="1584014496842">
+    <state width="1398" height="262" key="GridCell.Tab.1.bottom/0.23.1440.820@0.23.1440.820" timestamp="1584779283214" />
+    <state width="1398" height="262" key="GridCell.Tab.1.center" timestamp="1584779283213">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="262" key="GridCell.Tab.1.center/0.23.1440.820@0.23.1440.820" timestamp="1584014496842" />
-    <state width="1398" height="262" key="GridCell.Tab.1.left" timestamp="1584014496842">
+    <state width="1398" height="262" key="GridCell.Tab.1.center/0.23.1440.820@0.23.1440.820" timestamp="1584779283213" />
+    <state width="1398" height="262" key="GridCell.Tab.1.left" timestamp="1584779283213">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="262" key="GridCell.Tab.1.left/0.23.1440.820@0.23.1440.820" timestamp="1584014496842" />
-    <state width="1398" height="262" key="GridCell.Tab.1.right" timestamp="1584014496842">
+    <state width="1398" height="262" key="GridCell.Tab.1.left/0.23.1440.820@0.23.1440.820" timestamp="1584779283213" />
+    <state width="1398" height="262" key="GridCell.Tab.1.right" timestamp="1584779283214">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="262" key="GridCell.Tab.1.right/0.23.1440.820@0.23.1440.820" timestamp="1584014496842" />
+    <state width="1398" height="262" key="GridCell.Tab.1.right/0.23.1440.820@0.23.1440.820" timestamp="1584779283214" />
     <state x="513" y="150" key="RollbackChangesDialog" timestamp="1583938345231">
       <screen x="0" y="23" width="1440" height="820" />
     </state>

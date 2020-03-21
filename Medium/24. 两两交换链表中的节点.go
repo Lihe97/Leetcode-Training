@@ -3,10 +3,7 @@ package main
 import (
 	"fmt"
 )
-type ListNode struct {
-	Val int
-	Next *ListNode
-}
+
 func swapPairs(head *ListNode) *ListNode {
 	prev := &ListNode{
 		Val:  0,
