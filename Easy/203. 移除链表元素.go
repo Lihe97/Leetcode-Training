@@ -1,8 +1,5 @@
 package main
-type ListNode struct {
-	Val int
-	Next *ListNode
-}
+
 func removeElements(head *ListNode, val int) *ListNode {
 
 	prev := &ListNode{0,head}

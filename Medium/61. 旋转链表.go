@@ -2,10 +2,7 @@ package main
 
 import "fmt"
 
-type ListNode struct {
-	Val int
-	Next *ListNode
-}
+
 func rotateRight(head *ListNode, k int) *ListNode {
 	prev := &ListNode{
 		Val:  0,
