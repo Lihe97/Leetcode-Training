@@ -8,7 +8,7 @@ package main
  * }
  */
 //sb题
-func deleteNode(node *ListNode) {
+func ddeleteNode(node *ListNode) {
 	node.Val = node.Next.Val
 	node.Next = node.Next.Next
 
