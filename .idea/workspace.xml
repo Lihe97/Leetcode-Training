@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="'first &amp; test'" />
+    <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="'first &amp; test'">
+      <change afterPath="$PROJECT_DIR$/Easy/392. 判断子序列.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/7. 整数反转.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/892. 三维形体的表面积.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +55,7 @@
       <recent name="$PROJECT_DIR$/Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 147. 对链表进行插入排序.go">
+  <component name="RunManager" selected="Go Build.go build 392. 判断子序列.go">
     <configuration name="go build 147. 对链表进行插入排序.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -69,6 +74,15 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 392. 判断子序列.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Easy/392. 判断子序列.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build 5178. 四因数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -78,31 +92,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Allocation.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 7. 整数反转.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Kick-Start/Allocation.go" />
-      <package value="Leetcode-Training" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build Plates.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode-Training" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Kick-Start/Plates.go" />
+      <filePath value="$PROJECT_DIR$/Easy/7. 整数反转.go" />
       <package value="Leetcode-Training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 392. 判断子序列.go" />
+        <item itemvalue="Go Build.go build 7. 整数反转.go" />
         <item itemvalue="Go Build.go build 147. 对链表进行插入排序.go" />
         <item itemvalue="Go Build.go build 328. 奇偶链表.go" />
         <item itemvalue="Go Build.go build 5178. 四因数.go" />
-        <item itemvalue="Go Build.go build Plates.go" />
-        <item itemvalue="Go Build.go build Allocation.go" />
       </list>
     </recent_temporary>
   </component>
@@ -146,25 +151,25 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="303" y="31" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1584324978571" />
-    <state width="1398" height="289" key="GridCell.Tab.0.bottom" timestamp="1585048120921">
+    <state width="1398" height="293" key="GridCell.Tab.0.bottom" timestamp="1585106946849">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="289" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1585048120921" />
+    <state width="1398" height="293" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1585106946849" />
     <state width="1398" height="289" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1584019687174" />
-    <state width="1398" height="289" key="GridCell.Tab.0.center" timestamp="1585048120920">
+    <state width="1398" height="293" key="GridCell.Tab.0.center" timestamp="1585106946848">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="289" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1585048120920" />
+    <state width="1398" height="293" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1585106946848" />
     <state width="1398" height="289" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1584019687173" />
-    <state width="1398" height="289" key="GridCell.Tab.0.left" timestamp="1585048120920">
+    <state width="1398" height="293" key="GridCell.Tab.0.left" timestamp="1585106946847">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="289" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1585048120920" />
+    <state width="1398" height="293" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1585106946847" />
     <state width="1398" height="289" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1584019687173" />
-    <state width="1398" height="289" key="GridCell.Tab.0.right" timestamp="1585048120920">
+    <state width="1398" height="293" key="GridCell.Tab.0.right" timestamp="1585106946848">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="289" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1585048120920" />
+    <state width="1398" height="293" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1585106946848" />
     <state width="1398" height="289" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1584019687174" />
     <state width="1398" height="262" key="GridCell.Tab.1.bottom" timestamp="1584804531574">
       <screen x="0" y="23" width="1440" height="820" />
