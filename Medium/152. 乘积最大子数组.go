@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+
 func maxProduct(nums []int) int {
 
 	dpmin := make([]int,len(nums))
