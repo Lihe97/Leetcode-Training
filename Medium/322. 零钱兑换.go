@@ -15,7 +15,7 @@ func coinChange(coins []int, amount int) int {
 	for i := 1; i <= amount; i++ {
 		for j := 0; j < len(coins); j++ {
 			if coins[j] <= i {
-				dp[i] = min(dp[i], dp[i - coins[j]] + 1)
+				dp[i] = mmmmin(dp[i], dp[i - coins[j]] + 1)
 			}
 		}
 	}
@@ -25,7 +25,7 @@ func coinChange(coins []int, amount int) int {
 	return dp[amount]
 }
 
-func min(a, b int) int {
+func mmmmin(a, b int) int {
 	if a < b {
 		return a
 	}
