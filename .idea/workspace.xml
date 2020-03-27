@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="'first &amp; test'">
+      <change afterPath="$PROJECT_DIR$/Easy/914. 卡牌分组.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/238. 除自身以外数组的乘积.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +55,7 @@
       <recent name="$PROJECT_DIR$/Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 152. 乘积最大子数组.go">
+  <component name="RunManager" selected="Go Build.go build 914. 卡牌分组.go">
     <configuration name="go build 120. 三角形最小路径和.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -72,20 +74,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 63. 不同路径 II.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 238. 除自身以外数组的乘积.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Medium/63. 不同路径 II.go" />
+      <filePath value="$PROJECT_DIR$/Medium/238. 除自身以外数组的乘积.go" />
       <package value="Leetcode-Training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 64. 最小路径和.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 914. 卡牌分组.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Medium/64. 最小路径和.go" />
+      <filePath value="$PROJECT_DIR$/Easy/914. 卡牌分组.go" />
       <package value="Leetcode-Training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -101,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 914. 卡牌分组.go" />
+        <item itemvalue="Go Build.go build 238. 除自身以外数组的乘积.go" />
         <item itemvalue="Go Build.go build 152. 乘积最大子数组.go" />
         <item itemvalue="Go Build.go build 120. 三角形最小路径和.go" />
         <item itemvalue="Go Build.go build 91. 解码方法.go" />
-        <item itemvalue="Go Build.go build 64. 最小路径和.go" />
-        <item itemvalue="Go Build.go build 63. 不同路径 II.go" />
       </list>
     </recent_temporary>
   </component>
@@ -149,25 +151,25 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="303" y="31" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1584324978571" />
-    <state width="1398" height="228" key="GridCell.Tab.0.bottom" timestamp="1585205132097">
+    <state width="1398" height="228" key="GridCell.Tab.0.bottom" timestamp="1585304414966">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="228" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1585205132097" />
+    <state width="1398" height="228" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1585304414966" />
     <state width="1398" height="289" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1584019687174" />
-    <state width="1398" height="228" key="GridCell.Tab.0.center" timestamp="1585205132096">
+    <state width="1398" height="228" key="GridCell.Tab.0.center" timestamp="1585304414965">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="228" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1585205132096" />
+    <state width="1398" height="228" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1585304414965" />
     <state width="1398" height="289" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1584019687173" />
-    <state width="1398" height="228" key="GridCell.Tab.0.left" timestamp="1585205132096">
+    <state width="1398" height="228" key="GridCell.Tab.0.left" timestamp="1585304414965">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="228" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1585205132096" />
+    <state width="1398" height="228" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1585304414965" />
     <state width="1398" height="289" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1584019687173" />
-    <state width="1398" height="228" key="GridCell.Tab.0.right" timestamp="1585205132096">
+    <state width="1398" height="228" key="GridCell.Tab.0.right" timestamp="1585304414966">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="228" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1585205132096" />
+    <state width="1398" height="228" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1585304414966" />
     <state width="1398" height="289" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1584019687174" />
     <state width="1398" height="262" key="GridCell.Tab.1.bottom" timestamp="1585184498858">
       <screen x="0" y="23" width="1440" height="820" />
