@@ -19,8 +19,9 @@ func hasGroupsSizeX(deck []int) bool {
 
 }
 func gcd(a,b int)int{
-	for a%b!=0{
-		a,b=b,a%b
+
+	if a % b != 0{
+		a , b = b , a%b
 	}
 	return b
 }

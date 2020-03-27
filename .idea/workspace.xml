@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="'first &amp; test'">
-      <change afterPath="$PROJECT_DIR$/Easy/914. 卡牌分组.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/238. 除自身以外数组的乘积.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/338. 比特位计数.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Easy/914. 卡牌分组.go" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/914. 卡牌分组.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <recent name="$PROJECT_DIR$/Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 914. 卡牌分组.go">
+  <component name="RunManager" selected="Go Build.go build 338. 比特位计数.go">
     <configuration name="go build 120. 三角形最小路径和.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -83,6 +83,15 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 338. 比特位计数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Medium/338. 比特位计数.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build 914. 卡牌分组.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -92,22 +101,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 91. 解码方法.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode-Training" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Medium/91. 解码方法.go" />
-      <package value="Leetcode-Training" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 338. 比特位计数.go" />
         <item itemvalue="Go Build.go build 914. 卡牌分组.go" />
         <item itemvalue="Go Build.go build 238. 除自身以外数组的乘积.go" />
         <item itemvalue="Go Build.go build 152. 乘积最大子数组.go" />
         <item itemvalue="Go Build.go build 120. 三角形最小路径和.go" />
-        <item itemvalue="Go Build.go build 91. 解码方法.go" />
       </list>
     </recent_temporary>
   </component>
@@ -207,13 +207,17 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="503" y="357" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.820@0.23.1440.820" timestamp="1585190210378" />
+    <state x="297" y="29" width="845" height="807" key="find.popup" timestamp="1585320240801">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="297" y="29" width="845" height="807" key="find.popup/0.23.1440.820@0.23.1440.820" timestamp="1585320240801" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1583334501761">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.23.1440.820@0.23.1440.820" timestamp="1583334501761" />
-    <state x="385" y="167" width="670" height="676" key="search.everywhere.popup" timestamp="1585019019722">
+    <state x="385" y="167" width="670" height="676" key="search.everywhere.popup" timestamp="1585320305794">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state x="385" y="167" width="670" height="676" key="search.everywhere.popup/0.23.1440.820@0.23.1440.820" timestamp="1585019019722" />
+    <state x="385" y="167" width="670" height="676" key="search.everywhere.popup/0.23.1440.820@0.23.1440.820" timestamp="1585320305794" />
   </component>
 </project>
