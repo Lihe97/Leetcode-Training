@@ -7,7 +7,7 @@ type CustomStack struct {
 	top int
 
 }
-func Constructor(maxSize int) CustomStack {
+func CConstructor(maxSize int) CustomStack {
 
 	return CustomStack{
 		values: make([]int,maxSize),
@@ -51,7 +51,7 @@ func (this *CustomStack) Increment(k int, val int)  {
 
 }
 func main() {
-	 obj := Constructor(3)
+	 obj := CConstructor(3)
 	 obj.Push(1)
 	 obj.Push(2)
 	 obj.Push(3)
