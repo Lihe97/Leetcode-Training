@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="'first &amp; test'">
-      <change afterPath="$PROJECT_DIR$/Easy/136. 只出现一次的数字.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/279. 完全平方数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/820. 单词的压缩编码.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/290. 单词规律.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/389. 找不同.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Easy/136. 只出现一次的数字.go" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/136. 只出现一次的数字.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +75,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 338. 比特位计数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 290. 单词规律.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Medium/338. 比特位计数.go" />
+      <filePath value="$PROJECT_DIR$/Easy/290. 单词规律.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 389. 找不同.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Easy/389. 找不同.go" />
       <package value="Leetcode-Training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -93,22 +102,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 914. 卡牌分组.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode-Training" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Easy/914. 卡牌分组.go" />
-      <package value="Leetcode-Training" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build 136. 只出现一次的数字.go" />
+        <item itemvalue="Go Build.go build 290. 单词规律.go" />
+        <item itemvalue="Go Build.go build 389. 找不同.go" />
         <item itemvalue="Go Build.go build 279. 完全平方数.go" />
         <item itemvalue="Go Build.go build 820. 单词的压缩编码.go" />
-        <item itemvalue="Go Build.go build 338. 比特位计数.go" />
-        <item itemvalue="Go Build.go build 914. 卡牌分组.go" />
       </list>
     </recent_temporary>
   </component>
@@ -152,25 +152,25 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="303" y="31" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1584324978571" />
-    <state width="1398" height="309" key="GridCell.Tab.0.bottom" timestamp="1585396764572">
+    <state width="1398" height="268" key="GridCell.Tab.0.bottom" timestamp="1585405737358">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="309" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1585396764572" />
+    <state width="1398" height="268" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1585405737358" />
     <state width="1398" height="289" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1584019687174" />
-    <state width="1398" height="309" key="GridCell.Tab.0.center" timestamp="1585396764571">
+    <state width="1398" height="268" key="GridCell.Tab.0.center" timestamp="1585405737357">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="309" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1585396764571" />
+    <state width="1398" height="268" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1585405737357" />
     <state width="1398" height="289" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1584019687173" />
-    <state width="1398" height="309" key="GridCell.Tab.0.left" timestamp="1585396764570">
+    <state width="1398" height="268" key="GridCell.Tab.0.left" timestamp="1585405737356">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="309" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1585396764570" />
+    <state width="1398" height="268" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1585405737356" />
     <state width="1398" height="289" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1584019687173" />
-    <state width="1398" height="309" key="GridCell.Tab.0.right" timestamp="1585396764571">
+    <state width="1398" height="268" key="GridCell.Tab.0.right" timestamp="1585405737357">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="309" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1585396764571" />
+    <state width="1398" height="268" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1585405737357" />
     <state width="1398" height="289" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1584019687174" />
     <state width="1398" height="262" key="GridCell.Tab.1.bottom" timestamp="1585184498858">
       <screen x="0" y="23" width="1440" height="820" />
