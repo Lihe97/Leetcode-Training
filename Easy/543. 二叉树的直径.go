@@ -1,10 +1,10 @@
 package main
 
-type TreeNode struct {
-      Val int
-      Left *TreeNode
-      Right *TreeNode
-}
+//type TreeNode struct {
+//      Val int
+//      Left *TreeNode
+//      Right *TreeNode
+//}
 //求每个节点的左+右深度和，对每个节点进行比较
 var max int = 0
 func diameterOfBinaryTree(root *TreeNode) int {
