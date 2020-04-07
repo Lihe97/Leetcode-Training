@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="'first &amp; test'">
-      <change afterPath="$PROJECT_DIR$/Medium/1162. 地图分析.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_Contest/5368. 找出数组中的幸运数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_Contest/5369. 统计作战单位数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_Contest/5370. 设计地铁系统.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_Contest/5371. 找到所有好字符串.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_Contest/5357. 设计一个支持增量操作的栈.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week_Contest/5357. 设计一个支持增量操作的栈.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hard/42. 接雨水.go" beforeDir="false" afterPath="$PROJECT_DIR$/Hard/42. 接雨水.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hard/460. LFU缓存.go" beforeDir="false" afterPath="$PROJECT_DIR$/Hard/460. LFU缓存.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hard/72. 编辑距离.go" beforeDir="false" afterPath="$PROJECT_DIR$/Hard/72. 编辑距离.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hard/84. 柱状图中最大的矩形.go" beforeDir="false" afterPath="$PROJECT_DIR$/Hard/84. 柱状图中最大的矩形.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium/15. 三数之和.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/15. 三数之和.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium/18. 四数之和.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/18. 四数之和.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium/289. 生命游戏.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/289. 生命游戏.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium/3. 无重复字符的最长子串.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/3. 无重复字符的最长子串.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium/8. 字符串转换整数 (atoi).go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/8. 字符串转换整数 (atoi).go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium/912. 排序数组.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/912. 排序数组.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium/94. 二叉树的中序遍历.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/94. 二叉树的中序遍历.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium/958. 二叉树的完全性检验.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/958. 二叉树的完全性检验.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium/面试题 01.07. 旋转矩阵.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/面试题 01.07. 旋转矩阵.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_Contest/5195. 最长快乐字符串.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week_Contest/5195. 最长快乐字符串.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_Contest/5360. 统计最大组的数目.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week_Contest/5360. 统计最大组的数目.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_Contest/5361. 圆和矩形是否有重叠.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week_Contest/5361. 圆和矩形是否有重叠.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_Contest/5362. 构造 K 个回文字符串.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week_Contest/5362. 构造 K 个回文字符串.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_Contest/5376. 非递增顺序的最小子序列.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week_Contest/5376. 非递增顺序的最小子序列.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_Contest/5377. 将二进制表示减到 1 的步骤数.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week_Contest/5377. 将二进制表示减到 1 的步骤数.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_Contest/5379. 石子游戏 III.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week_Contest/5379. 石子游戏 III.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +58,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -51,7 +66,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -59,39 +74,12 @@
       <recent name="$PROJECT_DIR$/Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 5370. 设计地铁系统.go">
-    <configuration name="go build 1162. 地图分析.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build 84. 柱状图中最大的矩形.go">
+    <configuration name="go build 460. LFU缓存.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Medium/1162. 地图分析.go" />
-      <package value="Leetcode-Training" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 136. 只出现一次的数字.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode-Training" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Easy/136. 只出现一次的数字.go" />
-      <package value="Leetcode-Training" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 5368. 找出数组中的幸运数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode-Training" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Week_Contest/5368. 找出数组中的幸运数.go" />
-      <package value="Leetcode-Training" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 5369. 统计作战单位数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode-Training" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Week_Contest/5369. 统计作战单位数.go" />
+      <filePath value="$PROJECT_DIR$/Hard/460. LFU缓存.go" />
       <package value="Leetcode-Training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -105,12 +93,49 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 5376. 非递增顺序的最小子序列.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Week_Contest/5376. 非递增顺序的最小子序列.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 5377. 将二进制表示减到 1 的步骤数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Week_Contest/5377. 将二进制表示减到 1 的步骤数.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 5379. 石子游戏 III.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Week_Contest/5379. 石子游戏 III.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 84. 柱状图中最大的矩形.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Hard/84. 柱状图中最大的矩形.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build 5369. 统计作战单位数.go" />
-        <item itemvalue="Go Build.go build 5368. 找出数组中的幸运数.go" />
-        <item itemvalue="Go Build.go build 1162. 地图分析.go" />
-        <item itemvalue="Go Build.go build 136. 只出现一次的数字.go" />
+        <item itemvalue="Go Build.go build 84. 柱状图中最大的矩形.go" />
+        <item itemvalue="Go Build.go build 460. LFU缓存.go" />
+        <item itemvalue="Go Build.go build 5377. 将二进制表示减到 1 的步骤数.go" />
+        <item itemvalue="Go Build.go build 5379. 石子游戏 III.go" />
+        <item itemvalue="Go Build.go build 5376. 非递增顺序的最小子序列.go" />
       </list>
     </recent_temporary>
   </component>
@@ -134,6 +159,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="'first &amp; test'" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="184" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585479329456">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="184" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.820@0.23.1440.820" timestamp="1585479329456" />
     <state x="413" y="83" key="#go_build_1.两数之和.go" timestamp="1583211849624">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
@@ -150,54 +179,62 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="413" y="75" key="#go_build_Leetcode-Training/Medium/0.23.1440.820@0.23.1440.820" timestamp="1584607317501" />
+    <state x="413" y="95" key="#go_build_test.go" timestamp="1585471503886">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="413" y="95" key="#go_build_test.go/0.23.1440.820@0.23.1440.820" timestamp="1585471503886" />
     <state x="303" y="31" key="CommitChangelistDialog2" timestamp="1584324978571">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="303" y="31" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1584324978571" />
-    <state width="1398" height="242" key="GridCell.Tab.0.bottom" timestamp="1585452998121">
+    <state width="1398" height="268" key="GridCell.Tab.0.bottom" timestamp="1586097258378">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1585452998121" />
-    <state width="1398" height="289" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1584019687174" />
-    <state width="1398" height="242" key="GridCell.Tab.0.center" timestamp="1585452998119">
+    <state width="1398" height="268" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1586097258378" />
+    <state width="1398" height="268" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1585887229299" />
+    <state width="1398" height="167" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1585578479099" />
+    <state width="1398" height="268" key="GridCell.Tab.0.center" timestamp="1586097258377">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1585452998119" />
-    <state width="1398" height="289" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1584019687173" />
-    <state width="1398" height="242" key="GridCell.Tab.0.left" timestamp="1585452998118">
+    <state width="1398" height="268" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1586097258377" />
+    <state width="1398" height="268" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1585887229298" />
+    <state width="1398" height="167" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1585578479098" />
+    <state width="1398" height="268" key="GridCell.Tab.0.left" timestamp="1586097258377">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1585452998118" />
-    <state width="1398" height="289" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1584019687173" />
-    <state width="1398" height="242" key="GridCell.Tab.0.right" timestamp="1585452998120">
+    <state width="1398" height="268" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1586097258377" />
+    <state width="1398" height="268" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1585887229297" />
+    <state width="1398" height="167" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1585578479098" />
+    <state width="1398" height="268" key="GridCell.Tab.0.right" timestamp="1586097258378">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1585452998120" />
-    <state width="1398" height="289" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1584019687174" />
-    <state width="1398" height="262" key="GridCell.Tab.1.bottom" timestamp="1585444113195">
+    <state width="1398" height="268" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1586097258378" />
+    <state width="1398" height="268" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1585887229298" />
+    <state width="1398" height="167" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1585578479098" />
+    <state width="1398" height="262" key="GridCell.Tab.1.bottom" timestamp="1585474673944">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="262" key="GridCell.Tab.1.bottom/0.23.1440.820@0.23.1440.820" timestamp="1585444113195" />
-    <state width="1398" height="262" key="GridCell.Tab.1.center" timestamp="1585444113195">
+    <state width="1398" height="262" key="GridCell.Tab.1.bottom/0.23.1440.820@0.23.1440.820" timestamp="1585474673944" />
+    <state width="1398" height="262" key="GridCell.Tab.1.center" timestamp="1585474673944">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="262" key="GridCell.Tab.1.center/0.23.1440.820@0.23.1440.820" timestamp="1585444113195" />
-    <state width="1398" height="262" key="GridCell.Tab.1.left" timestamp="1585444113195">
+    <state width="1398" height="262" key="GridCell.Tab.1.center/0.23.1440.820@0.23.1440.820" timestamp="1585474673944" />
+    <state width="1398" height="262" key="GridCell.Tab.1.left" timestamp="1585474673944">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="262" key="GridCell.Tab.1.left/0.23.1440.820@0.23.1440.820" timestamp="1585444113195" />
-    <state width="1398" height="262" key="GridCell.Tab.1.right" timestamp="1585444113195">
+    <state width="1398" height="262" key="GridCell.Tab.1.left/0.23.1440.820@0.23.1440.820" timestamp="1585474673944" />
+    <state width="1398" height="262" key="GridCell.Tab.1.right" timestamp="1585474673944">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state width="1398" height="262" key="GridCell.Tab.1.right/0.23.1440.820@0.23.1440.820" timestamp="1585444113195" />
+    <state width="1398" height="262" key="GridCell.Tab.1.right/0.23.1440.820@0.23.1440.820" timestamp="1585474673944" />
     <state x="513" y="150" key="RollbackChangesDialog" timestamp="1583938345231">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="513" y="150" key="RollbackChangesDialog/0.23.1440.820@0.23.1440.820" timestamp="1583938345231" />
-    <state x="221" y="72" key="SettingsEditor" timestamp="1585181773692">
+    <state x="221" y="72" key="SettingsEditor" timestamp="1585478642157">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state x="221" y="72" key="SettingsEditor/0.23.1440.820@0.23.1440.820" timestamp="1585181773692" />
+    <state x="221" y="72" key="SettingsEditor/0.23.1440.820@0.23.1440.820" timestamp="1585478642157" />
     <state x="320" y="173" key="Vcs.Push.Dialog.v2" timestamp="1583176188525">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
