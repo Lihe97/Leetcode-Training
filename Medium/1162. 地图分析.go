@@ -4,10 +4,7 @@ import (
 	"fmt"
 )
 
-type point struct {
-	x int
-	y int
-}
+
 
 func maxDistance(grid [][]int) int {
 	if len(grid) == 0 {
@@ -27,6 +24,7 @@ func maxDistance(grid [][]int) int {
 	}
 	dx := []int{1,0,-1,0}
 	dy := []int{0,1,0,-1}
+
 	for len(group) != 0{
 
 		count++
