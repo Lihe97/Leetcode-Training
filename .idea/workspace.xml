@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="'first &amp; test'">
-      <change afterPath="$PROJECT_DIR$/Medium/22. 括号生成.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/146. LRU缓存机制.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/151. 翻转字符串里的单词.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hard/460. LFU缓存.go" beforeDir="false" afterPath="$PROJECT_DIR$/Hard/460. LFU缓存.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,12 +57,30 @@
       <recent name="$PROJECT_DIR$/Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 22. 括号生成.go">
+  <component name="RunManager" selected="Go Build.go build 151. 翻转字符串里的单词.go">
     <configuration name="go build 面试题13. 机器人的运动范围.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/Medium/面试题13. 机器人的运动范围.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 146. LRU缓存机制.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Medium/146. LRU缓存机制.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 151. 翻转字符串里的单词.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Medium/151. 翻转字符串里的单词.go" />
       <package value="Leetcode-Training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -92,31 +112,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 5377. 将二进制表示减到 1 的步骤数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode-Training" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Week_Contest/5377. 将二进制表示减到 1 的步骤数.go" />
-      <package value="Leetcode-Training" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 84. 柱状图中最大的矩形.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode-Training" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Hard/84. 柱状图中最大的矩形.go" />
-      <package value="Leetcode-Training" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 151. 翻转字符串里的单词.go" />
+        <item itemvalue="Go Build.go build 460. LFU缓存.go" />
+        <item itemvalue="Go Build.go build 146. LRU缓存机制.go" />
         <item itemvalue="Go Build.go build 22. 括号生成.go" />
         <item itemvalue="Go Build.go build 面试题13. 机器人的运动范围.go" />
-        <item itemvalue="Go Build.go build 84. 柱状图中最大的矩形.go" />
-        <item itemvalue="Go Build.go build 460. LFU缓存.go" />
-        <item itemvalue="Go Build.go build 5377. 将二进制表示减到 1 的步骤数.go" />
       </list>
     </recent_temporary>
   </component>
@@ -168,31 +170,31 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="303" y="31" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1584324978571" />
-    <state width="1398" height="246" key="GridCell.Tab.0.bottom" timestamp="1586398412351">
+    <state width="1398" height="246" key="GridCell.Tab.0.bottom" timestamp="1586482798491">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="246" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1586398412351" />
+    <state width="1398" height="246" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1586482798491" />
     <state width="1398" height="268" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1586097258378" />
     <state width="1398" height="268" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1585887229299" />
     <state width="1398" height="167" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1585578479099" />
-    <state width="1398" height="246" key="GridCell.Tab.0.center" timestamp="1586398412350">
+    <state width="1398" height="246" key="GridCell.Tab.0.center" timestamp="1586482798490">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="246" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1586398412350" />
+    <state width="1398" height="246" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1586482798490" />
     <state width="1398" height="268" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1586097258377" />
     <state width="1398" height="268" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1585887229298" />
     <state width="1398" height="167" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1585578479098" />
-    <state width="1398" height="246" key="GridCell.Tab.0.left" timestamp="1586398412349">
+    <state width="1398" height="246" key="GridCell.Tab.0.left" timestamp="1586482798490">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="246" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1586398412349" />
+    <state width="1398" height="246" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1586482798490" />
     <state width="1398" height="268" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1586097258377" />
     <state width="1398" height="268" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1585887229297" />
     <state width="1398" height="167" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1585578479098" />
-    <state width="1398" height="246" key="GridCell.Tab.0.right" timestamp="1586398412351">
+    <state width="1398" height="246" key="GridCell.Tab.0.right" timestamp="1586482798490">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="246" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1586398412351" />
+    <state width="1398" height="246" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1586482798490" />
     <state width="1398" height="268" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1586097258378" />
     <state width="1398" height="268" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1585887229298" />
     <state width="1398" height="167" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1585578479098" />
