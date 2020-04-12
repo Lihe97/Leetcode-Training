@@ -5,23 +5,44 @@ import (
 )
 
 func nextGreaterElements(nums []int) []int {
-	stack := make([]int,0)
-	res := make([]int, len(nums))
-	for i:= 2*len(nums)-1; i>=0 ; i-- {
-		for len(stack) > 0 && nums[i%len(nums)]>=nums[stack[len(stack)-1]]{
-			stack = stack[:len(stack)-1]
+	temp := []int{}
+	res := []int{}
+	mp := map[int]int{}
+
+	for i := 0 ; i < len(nums) ; i ++{
+
+		for len(temp) != 0 && nums[i] > nums[temp[len(temp)-1]]{
+			mp[temp[len(temp)-1]] = i
+			temp = temp[0:len(temp)-1]
 		}
-		if len(stack)==0 {
-			res[i%len(nums)] = -1
-		} else {
-			res[i%len(nums)] = nums[stack[len(stack)-1]]
-		}
-		stack = append(stack,i%len(nums))
+		temp = append(temp, i)
 	}
+	for i := 0 ; i < len(nums) ; i ++{
+
+		for len(temp) != 0 && nums[i] > nums[temp[len(temp)-1]]{
+			mp[temp[len(temp)-1]] = i
+			temp = temp[0:len(temp)-1]
+		}
+	}
+	for i := 0 ; i < len(temp); i ++{
+		mp[temp[i]] = -1
+	}
+
+	for i := 0 ; i < len(nums) ; i ++{
+		if mp[i] != -1{
+			res = append(res, nums[mp[i]])
+		}else{
+			res = append(res, mp[i])
+		}
+
+	}
+
+
+
 	return res
 }
 func main() {
-	a := []int{1,1,1}
+	a := []int{1,2,3,2,1,3}
 	fmt.Println(nextGreaterElements(a))
 
 
