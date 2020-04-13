@@ -11,7 +11,7 @@ type LRUCache struct {
 }
 
 
-func Constructor(capacity int) LRUCache {
+func CConstructor(capacity int) LRUCache {
 	//return LRUCache{mp: map[int][2]int{},capacity}
 	return LRUCache{
 		mp: map[int][2]int{},
