@@ -33,13 +33,7 @@ func max(a,b int)int{
 		return b
 	}
 }
-func min(a,b int)int{
-	if a > b{
-		return b
-	}else{
-		return a
-	}
-}
+
 func main() {
 	a := []int{2,3,-2,4}
 	fmt.Println(maxProduct(a))
