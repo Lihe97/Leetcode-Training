@@ -1,10 +1,7 @@
 package main
 
 import "fmt"
-type ListNode struct {
-	Val int
-	Next *ListNode
-}
+
 func insertionSortList(head *ListNode) *ListNode {
 
 	res := &ListNode{
