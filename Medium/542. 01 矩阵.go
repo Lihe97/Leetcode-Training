@@ -48,13 +48,7 @@ func updateMatrix(matrix [][]int) [][]int {
 	return m
 
 }
-func min(a,b int)int{
-	if a > b{
-		return b
-	}else{
-		return a
-	}
-}
+
 func main() {
 
 	a := [][]int{{0,0,0},{0,1,0},{0,0,0}}

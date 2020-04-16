@@ -3,9 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	a := []int{3,4}
 
+	a := 3
 
+	b := &a
 
-	fmt.Println(a[0:0])
+	c := *b
+
+	fmt.Println(b,c)
+
 }

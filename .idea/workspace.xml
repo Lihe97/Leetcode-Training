@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="'first &amp; test'">
-      <change afterPath="$PROJECT_DIR$/Easy/448. 找到所有数组中消失的数字.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/922. 按奇偶排序数组 II.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/46. 全排列.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/56. 合并区间.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/647. 回文子串.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Easy/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium/152. 乘积最大子数组.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/152. 乘积最大子数组.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium/5. 最长回文子串.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/5. 最长回文子串.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium/542. 01 矩阵.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/542. 01 矩阵.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,34 +61,7 @@
       <recent name="$PROJECT_DIR$/Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 922. 按奇偶排序数组 II.go">
-    <configuration name="go build 283. 移动零.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode-Training" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Easy/283. 移动零.go" />
-      <package value="Leetcode-Training" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 34. 在排序数组中查找元素的第一个和最后一个位置.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode-Training" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Easy/34. 在排序数组中查找元素的第一个和最后一个位置.go" />
-      <package value="Leetcode-Training" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 461. 汉明距离.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode-Training" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Easy/461. 汉明距离.go" />
-      <package value="Leetcode-Training" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build 5. 最长回文子串.go">
     <configuration name="go build 5370. 设计地铁系统.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -93,11 +71,29 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 744. 寻找比目标字母大的最小字母.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 56. 合并区间.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Easy/744. 寻找比目标字母大的最小字母.go" />
+      <filePath value="$PROJECT_DIR$/Medium/56. 合并区间.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 5. 最长回文子串.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Medium/5. 最长回文子串.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 647. 回文子串.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Medium/647. 回文子串.go" />
       <package value="Leetcode-Training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -111,13 +107,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Easy/test.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 5. 最长回文子串.go" />
+        <item itemvalue="Go Build.go build 647. 回文子串.go" />
+        <item itemvalue="Go Build.go build 56. 合并区间.go" />
+        <item itemvalue="Go Build.go build test.go" />
         <item itemvalue="Go Build.go build 922. 按奇偶排序数组 II.go" />
-        <item itemvalue="Go Build.go build 34. 在排序数组中查找元素的第一个和最后一个位置.go" />
-        <item itemvalue="Go Build.go build 283. 移动零.go" />
-        <item itemvalue="Go Build.go build 461. 汉明距离.go" />
-        <item itemvalue="Go Build.go build 744. 寻找比目标字母大的最小字母.go" />
       </list>
     </recent_temporary>
   </component>
@@ -169,34 +174,34 @@
       <screen x="0" y="23" width="1440" height="820" />
     </state>
     <state x="303" y="31" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1584324978571" />
-    <state width="1398" height="184" key="GridCell.Tab.0.bottom" timestamp="1586922119412">
-      <screen x="0" y="23" width="1440" height="837" />
+    <state width="1398" height="184" key="GridCell.Tab.0.bottom" timestamp="1587006140233">
+      <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="184" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1586918708200" />
+    <state width="1398" height="184" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1587006140233" />
     <state width="1398" height="268" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1586097258378" />
     <state width="1398" height="268" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1585887229299" />
     <state width="1398" height="167" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1585578479099" />
     <state width="1398" height="184" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1586922119412" />
-    <state width="1398" height="184" key="GridCell.Tab.0.center" timestamp="1586922119411">
-      <screen x="0" y="23" width="1440" height="837" />
+    <state width="1398" height="184" key="GridCell.Tab.0.center" timestamp="1587006140232">
+      <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="184" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1586918708197" />
+    <state width="1398" height="184" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1587006140232" />
     <state width="1398" height="268" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1586097258377" />
     <state width="1398" height="268" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1585887229298" />
     <state width="1398" height="167" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1585578479098" />
     <state width="1398" height="184" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1586922119411" />
-    <state width="1398" height="184" key="GridCell.Tab.0.left" timestamp="1586922119410">
-      <screen x="0" y="23" width="1440" height="837" />
+    <state width="1398" height="184" key="GridCell.Tab.0.left" timestamp="1587006140232">
+      <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="184" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1586918708197" />
+    <state width="1398" height="184" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1587006140232" />
     <state width="1398" height="268" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1586097258377" />
     <state width="1398" height="268" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1585887229297" />
     <state width="1398" height="167" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1585578479098" />
     <state width="1398" height="184" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1586922119410" />
-    <state width="1398" height="184" key="GridCell.Tab.0.right" timestamp="1586922119411">
-      <screen x="0" y="23" width="1440" height="837" />
+    <state width="1398" height="184" key="GridCell.Tab.0.right" timestamp="1587006140233">
+      <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="184" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1586918708200" />
+    <state width="1398" height="184" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1587006140233" />
     <state width="1398" height="268" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1586097258378" />
     <state width="1398" height="268" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1585887229298" />
     <state width="1398" height="167" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1585578479098" />

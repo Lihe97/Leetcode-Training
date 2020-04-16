@@ -26,13 +26,7 @@ func maxProduct(nums []int) int {
 
 	return res
 }
-func max(a,b int)int{
-	if a > b{
-		return a
-	}else{
-		return b
-	}
-}
+
 
 func main() {
 	a := []int{2,3,-2,4}
