@@ -19,9 +19,6 @@ func canJump(nums []int) bool {
 		return true
 	}
 	return false
-
-
-
 }
 func main() {
 	a := []int{2,3,1,1,4}
