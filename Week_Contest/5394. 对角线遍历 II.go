@@ -8,51 +8,30 @@ type point struct{
 }
 
 func findDiagonalOrder(nums [][]int) []int {
-	maxy := 0
 
-	for i := 0 ; i < len(nums) ; i ++{
-		if len(nums[i]) > maxy{
-			maxy = len(nums[i])
-
-		}
+	flag := [][]bool{}
+	for i := 0 ; i < len(nums); i ++{
+		temp := make([]bool,len(nums[i]))
+		flag = append(flag, temp)
 	}
 	res := []int{}
-
 	stack := []point{}
-	for i := 0 ; i < len(nums)-1; i++{
-		stack = append(stack, point{i,0})
-	}
-	for i := 0 ; i < len(nums[len(nums)-1]) ; i++{
-		stack = append(stack, point{len(nums)-1,i})
-	}
+
+	stack = append(stack, point{0,0})
+	flag[0][0] = true
 	for len(stack) != 0{
 		temp := stack[0]
 		stack = stack[1:]
-		for temp.x >= 0 && temp.y < maxy {
-			if temp.y < len(nums[temp.x]){
-				res = append(res, nums[temp.x][temp.y])
-			}
-			temp.x --
-			temp.y ++
+		res = append(res, nums[temp.x][temp.y])
+		if temp.x + 1 < len(nums) && temp.y < len(nums[temp.x+1]) && !flag[temp.x+1][temp.y] {
+			stack = append(stack, point{temp.x+1,temp.y})
+			flag[temp.x+1][temp.y] = true
+		}
+		if temp.y + 1 < len(nums[temp.x]) && !flag[temp.x][temp.y+1]{
+			stack = append(stack, point{temp.x,temp.y+1})
+			flag[temp.x][temp.y+1] = true
 		}
 	}
-
-	lastx := len(nums)-1
-	lasty := len(nums[len(nums)-1])
-
-
-	for i := lastx - 1; i >= 0 ; i--{
-
-		for j := lastx - i +1 ; j < len(nums[i]) ; j ++{
-
-			if (j - lasty) !=( i - lastx){
-				res = append(res, nums[i][j])
-			}
-		}
-	}
-
-
-
 	return res
 
 }
