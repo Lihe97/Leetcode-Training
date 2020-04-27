@@ -16,7 +16,6 @@ func findDiagonalOrder(nums [][]int) []int {
 	}
 	res := []int{}
 	stack := []point{}
-
 	stack = append(stack, point{0,0})
 	flag[0][0] = true
 	for len(stack) != 0{
@@ -33,7 +32,6 @@ func findDiagonalOrder(nums [][]int) []int {
 		}
 	}
 	return res
-
 }
 
 func main() {
