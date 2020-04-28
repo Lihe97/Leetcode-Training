@@ -2,81 +2,112 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
+type DubleNode struct{
+	key int
+	val int
+	prev *DubleNode
+	next *DubleNode
+}
 
 type LRUCache struct {
-	mp map[int][2]int
-	length int
+	capacity int
+	cache map[int]*DubleNode
+	head,end *DubleNode
 }
 
 
-func CConstructor(capacity int) LRUCache {
-	//return LRUCache{mp: map[int][2]int{},capacity}
+func Constructor(capacity int) LRUCache {
+
+	end := &DubleNode{
+		key : 0,
+		val:  0,
+		prev: nil,
+		next: nil,
+	}
+	head := &DubleNode{
+		key: 0,
+		val:  0,
+		prev: nil,
+		next: end,
+	}
+	end.prev = head
+
 	return LRUCache{
-		mp: map[int][2]int{},
-		length: capacity,
+		capacity: capacity,
+		cache: map[int]*DubleNode{},
+		head:     head,
+		end:     end,
 	}
 }
+
+
 func (this *LRUCache) Get(key int) int {
 
-	maxt := 0
-	for _,a := range this.mp{
-		if a[1] > maxt{
-			maxt = a[1]
-		}
-	}
-	for a,x := range this.mp{
-		if a == key{
-			temp := [2]int{x[0],maxt + 1}
-			this.mp[a] = temp
-			return x[0]
-		}
-	}
-	return -1
-}
-func (this *LRUCache) Put(key int, value int)  {
-	maxt := 0
-	mint := math.MaxInt8
-	var min int
-	for b,a := range this.mp{
-		if a[1] < mint{
-			mint = a[1]
-			min = b
-		}
-		if a[1] > maxt{
-			maxt = a[1]
-		}
-	}
-	if _,ok := this.mp[key];ok{
-		temp := [2]int{value,maxt}
-		this.mp[key] = temp
-	}else{
-	if len(this.mp) == 0{
-		temp := [2]int{value,1}
-		this.mp[key] = temp
-	}else if len(this.mp) < this.length{
-		temp := [2]int{value,maxt + 1}
-		this.mp[key] = temp
-	}else{
-		delete(this.mp,min)
-		temp := [2]int{value,maxt + 1}
 
-		this.mp[key] = temp
+	if this.cache[key] == nil{
+		return -1
 	}
+	node := this.cache[key]
+
+	prev,next := node.prev,node.next
+	prev.next = next
+	next.prev = prev
+
+	this.insertHead(node)
+
+	return node.val
+}
+func(this *LRUCache) insertHead(node *DubleNode){
+	node.prev = this.head
+	node.next = this.head.next
+	this.head.next.prev = node
+	this.head.next = node
+}
+
+
+func (this *LRUCache) Put(key int, value int)  {
+
+	if this.cache[key] == nil{
+		node := &DubleNode{
+			key : key,
+			val:  value,
+			prev: nil,
+			next: nil,
+		}
+		if this.capacity == len(this.cache){
+			//this.cache[this.end.prev.val] = nil
+			delete(this.cache,this.end.prev.key)
+			fmt.Println(this.cache)
+			this.end.prev.prev.next = this.end
+			this.end.prev = this.end.prev.prev
+
+			this.insertHead(node)
+		}else{
+			this.insertHead(node)
+		}
+		this.cache[key] = node
+	}else{
+		node := this.cache[key]
+		node.val = value
+
+		node.prev.next = node.next
+		node.next.prev = node.prev
+		this.insertHead(node)
 	}
+
 
 }
 
 func main() {
 
-	obj := Constructor(2)
+	obj := Constructor(1)
+
+	obj.Put(2,1)
+
+	obj.Put(3,2)
+
 	fmt.Println("拿2",obj.Get(2))
-	obj.Put(2,6)
-	fmt.Println("拿1",obj.Get(1))
-	obj.Put(1,5)
-	obj.Put(1,2)
-	fmt.Println("拿1",obj.Get(1))
-	fmt.Println("拿2",obj.Get(2))
+
 
 }
