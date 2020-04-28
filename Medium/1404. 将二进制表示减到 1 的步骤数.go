@@ -34,5 +34,8 @@ func numSteps(s string) int {
 
 func main() {
 
-	fmt.Println(numSteps("1111110011101010110011100100101110010100101110111010111110110010"))
+	//s := "abc"
+	//b := []byte(s)
+	fmt.Println(numSteps("1101"))
+
 }
