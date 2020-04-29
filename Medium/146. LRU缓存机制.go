@@ -19,18 +19,9 @@ type LRUCache struct {
 
 func Constructor(capacity int) LRUCache {
 
-	end := &DubleNode{
-		key : 0,
-		val:  0,
-		prev: nil,
-		next: nil,
-	}
-	head := &DubleNode{
-		key: 0,
-		val:  0,
-		prev: nil,
-		next: end,
-	}
+	end := &DubleNode{}
+	head := &DubleNode{}
+	head.next = end
 	end.prev = head
 
 	return LRUCache{
@@ -50,13 +41,16 @@ func (this *LRUCache) Get(key int) int {
 	}
 	node := this.cache[key]
 
-	prev,next := node.prev,node.next
-	prev.next = next
-	next.prev = prev
 
+	this.removeNode(node)
 	this.insertHead(node)
 
 	return node.val
+}
+func(this *LRUCache) removeNode(node *DubleNode){
+	prev,next := node.prev,node.next
+	prev.next = next
+	next.prev = prev
 }
 func(this *LRUCache) insertHead(node *DubleNode){
 	node.prev = this.head
@@ -76,12 +70,10 @@ func (this *LRUCache) Put(key int, value int)  {
 			next: nil,
 		}
 		if this.capacity == len(this.cache){
-			//this.cache[this.end.prev.val] = nil
-			delete(this.cache,this.end.prev.key)
-			fmt.Println(this.cache)
-			this.end.prev.prev.next = this.end
-			this.end.prev = this.end.prev.prev
 
+			delete(this.cache,this.end.prev.key)
+
+			this.removeNode(this.end.prev)
 			this.insertHead(node)
 		}else{
 			this.insertHead(node)
@@ -90,9 +82,7 @@ func (this *LRUCache) Put(key int, value int)  {
 	}else{
 		node := this.cache[key]
 		node.val = value
-
-		node.prev.next = node.next
-		node.next.prev = node.prev
+		this.removeNode(node)
 		this.insertHead(node)
 	}
 
