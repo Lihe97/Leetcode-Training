@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="'first &amp; test'">
-      <change afterPath="$PROJECT_DIR$/Easy/941. 有效的山脉数组.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/845. 数组中的最长山脉.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/202. 快乐数.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Medium/1404. 将二进制表示减到 1 的步骤数.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/1404. 将二进制表示减到 1 的步骤数.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Medium/146. LRU缓存机制.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/146. LRU缓存机制.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,41 +170,41 @@
     </state>
     <state x="303" y="31" key="CommitChangelistDialog2/0.23.1440.813@0.23.1440.813" timestamp="1587201861478" />
     <state x="303" y="31" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1584324978571" />
-    <state width="1398" height="225" key="GridCell.Tab.0.bottom" timestamp="1588163531196">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1398" height="225" key="GridCell.Tab.0.bottom" timestamp="1588171473585">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state width="1398" height="225" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1588163531196" />
-    <state width="1398" height="225" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1588151629406" />
+    <state width="1398" height="225" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1588171473585" />
     <state width="1398" height="225" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1588074753671" />
     <state width="1398" height="268" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1586097258378" />
     <state width="1398" height="268" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1585887229299" />
     <state width="1398" height="167" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1585578479099" />
     <state width="1398" height="184" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1586922119412" />
-    <state width="1398" height="225" key="GridCell.Tab.0.center" timestamp="1588163531195">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1398" height="225" key="GridCell.Tab.0.center" timestamp="1588171473585">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state width="1398" height="225" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1588163531195" />
-    <state width="1398" height="225" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1588151629406" />
+    <state width="1398" height="225" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1588171473585" />
     <state width="1398" height="225" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1588074753669" />
     <state width="1398" height="268" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1586097258377" />
     <state width="1398" height="268" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1585887229298" />
     <state width="1398" height="167" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1585578479098" />
     <state width="1398" height="184" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1586922119411" />
-    <state width="1398" height="225" key="GridCell.Tab.0.left" timestamp="1588163531195">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1398" height="225" key="GridCell.Tab.0.left" timestamp="1588171473584">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state width="1398" height="225" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1588163531195" />
-    <state width="1398" height="225" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1588151629406" />
+    <state width="1398" height="225" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1588171473584" />
     <state width="1398" height="225" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1588074753668" />
     <state width="1398" height="268" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1586097258377" />
     <state width="1398" height="268" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1585887229297" />
     <state width="1398" height="167" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1585578479098" />
     <state width="1398" height="184" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1586922119410" />
-    <state width="1398" height="225" key="GridCell.Tab.0.right" timestamp="1588163531196">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1398" height="225" key="GridCell.Tab.0.right" timestamp="1588171473585">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state width="1398" height="225" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1588163531196" />
-    <state width="1398" height="225" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1588151629406" />
+    <state width="1398" height="225" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1588171473585" />
     <state width="1398" height="225" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1588074753670" />
     <state width="1398" height="268" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1586097258378" />
     <state width="1398" height="268" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1585887229298" />
