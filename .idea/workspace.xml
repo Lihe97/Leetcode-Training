@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="'first &amp; test'">
-      <change afterPath="$PROJECT_DIR$/Easy/485. 最大连续1的个数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/102. 二叉树的层序遍历.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/429. N叉树的层序遍历.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/701. 二叉搜索树中的插入操作.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/面试题 04.05. 合法二叉搜索树.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Medium/98. 验证二叉搜索树.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/98. 验证二叉搜索树.go" afterDir="false" />
     </list>

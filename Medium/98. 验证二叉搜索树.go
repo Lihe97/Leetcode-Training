@@ -8,33 +8,29 @@ func isValidBST(root *TreeNode) bool {
 	if root == nil{
 		return true
 	}
-	//var temp []int
-	//add(root,&temp)
-	//if len(temp) == 1{
-	//	return true
-	//for i := 1 ; i < len(temp) ; i ++{
-	//	if temp[i] <= temp[i-1]{
-	//		return false
-	//	}
-	//}
-	t(root,)
+	var temp []int
+	add(root,&temp)
+	if len(temp) == 1 {
+		return true
+	}
+	for i := 1 ; i < len(temp) ; i ++ {
+		if temp[i] <= temp[i-1] {
+			return false
+		}
+	}
+
 	return true
 }
-//func add(root *TreeNode, temp *[]int){
-//	if root.Left != nil{
-//		add(root.Left,temp)
-//	}
-//	*temp = append(*temp,root.Val)
-//	if root.Right != nil{
-//		add(root.Right,temp)
-//	}
-//}
-func t(root *TreeNode,last int) bool {
-
+func add(root *TreeNode, temp *[]int){
 	if root.Left != nil{
-		t(root.Left,last)
+		add(root.Left,temp)
+	}
+	*temp = append(*temp,root.Val)
+	if root.Right != nil{
+		add(root.Right,temp)
 	}
 }
+
 
 func main() {
 	
