@@ -1,17 +1,18 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
-type node struct {
-	x int
-
-}
 func main() {
 
-	cache := map[int]int{}
-	cache[1] = 1
-	fmt.Println(cache)
-	delete(cache,1)
-	fmt.Println(cache)
 
+	a  := "abc"
+
+	b := strings.ToTitle(a)
+	a = strings.Title(a)
+	fmt.Println(a,b)
 }
+
+
