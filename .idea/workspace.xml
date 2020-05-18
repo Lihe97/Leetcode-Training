@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="'first &amp; test'">
-      <change afterPath="$PROJECT_DIR$/Medium/207. 课程表.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Medium/210. 课程表 II.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_Contest/5396. 连续字符.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_Contest/5397. 最简分数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_Contest/5398. 统计二叉树中好节点的数目.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_Contest/5412. 在既定时间做作业的学生人数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_Contest/5413. 重新排列句子中的单词.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/107. 二叉树的层次遍历 II.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/110. 平衡二叉树.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/面试题 04.04. 检查平衡性.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium/152. 乘积最大子数组.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/152. 乘积最大子数组.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

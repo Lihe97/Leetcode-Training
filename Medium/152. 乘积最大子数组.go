@@ -22,10 +22,10 @@ func maxProduct(nums []int) int {
 			res = dpmax[i]
 		}
 	}
-
-
 	return res
 }
+
+
 
 
 func main() {
