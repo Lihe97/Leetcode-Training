@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="'first &amp; test'">
+      <change afterPath="$PROJECT_DIR$/Hard/128. 最长连续序列.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Medium/238. 除自身以外数组的乘积.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/238. 除自身以外数组的乘积.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,16 @@
       <recent name="$PROJECT_DIR$/Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 238. 除自身以外数组的乘积.go">
+  <component name="RunManager" selected="Go Build.go build 128. 最长连续序列.go">
+    <configuration name="go build 128. 最长连续序列.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Hard/128. 最长连续序列.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build 1371. 每个元音包含偶数次的最长子字符串.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -102,22 +111,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 680. 验证回文字符串 Ⅱ.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode-Training" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Easy/680. 验证回文字符串 Ⅱ.go" />
-      <package value="Leetcode-Training" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 128. 最长连续序列.go" />
         <item itemvalue="Go Build.go build 238. 除自身以外数组的乘积.go" />
         <item itemvalue="Go Build.go build 5409. 检查一个字符串是否包含所有长度为 K 的二进制子串.go" />
         <item itemvalue="Go Build.go build 5417. 定长子串中元音的最大数目.go" />
         <item itemvalue="Go Build.go build 1371. 每个元音包含偶数次的最长子字符串.go" />
-        <item itemvalue="Go Build.go build 680. 验证回文字符串 Ⅱ.go" />
       </list>
     </recent_temporary>
   </component>
@@ -170,10 +170,10 @@
     </state>
     <state x="303" y="31" key="CommitChangelistDialog2/0.23.1440.813@0.23.1440.813" timestamp="1587201861478" />
     <state x="303" y="31" key="CommitChangelistDialog2/0.23.1440.820@0.23.1440.820" timestamp="1584324978571" />
-    <state width="1878" height="339" key="GridCell.Tab.0.bottom" timestamp="1591261101742">
+    <state width="1878" height="339" key="GridCell.Tab.0.bottom" timestamp="1591453685080">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="339" key="GridCell.Tab.0.bottom/0.1103.1440.809/0.23.1920.1057@0.23.1920.1057" timestamp="1591261101742" />
+    <state width="1878" height="339" key="GridCell.Tab.0.bottom/0.1103.1440.809/0.23.1920.1057@0.23.1920.1057" timestamp="1591453685080" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.809@0.23.1440.809" timestamp="1590305703999" />
     <state width="1398" height="246" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1589635658223" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1589875989899" />
@@ -184,10 +184,10 @@
     <state width="1398" height="268" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1585887229299" />
     <state width="1398" height="167" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1585578479099" />
     <state width="1398" height="184" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1586922119412" />
-    <state width="1878" height="339" key="GridCell.Tab.0.center" timestamp="1591261101741">
+    <state width="1878" height="339" key="GridCell.Tab.0.center" timestamp="1591453685079">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="339" key="GridCell.Tab.0.center/0.1103.1440.809/0.23.1920.1057@0.23.1920.1057" timestamp="1591261101741" />
+    <state width="1878" height="339" key="GridCell.Tab.0.center/0.1103.1440.809/0.23.1920.1057@0.23.1920.1057" timestamp="1591453685079" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.809@0.23.1440.809" timestamp="1590305703998" />
     <state width="1398" height="246" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1589635658222" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1589875989898" />
@@ -198,10 +198,10 @@
     <state width="1398" height="268" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1585887229298" />
     <state width="1398" height="167" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1585578479098" />
     <state width="1398" height="184" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1586922119411" />
-    <state width="1878" height="339" key="GridCell.Tab.0.left" timestamp="1591261101740">
+    <state width="1878" height="339" key="GridCell.Tab.0.left" timestamp="1591453685079">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="339" key="GridCell.Tab.0.left/0.1103.1440.809/0.23.1920.1057@0.23.1920.1057" timestamp="1591261101740" />
+    <state width="1878" height="339" key="GridCell.Tab.0.left/0.1103.1440.809/0.23.1920.1057@0.23.1920.1057" timestamp="1591453685079" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.809@0.23.1440.809" timestamp="1590305703998" />
     <state width="1398" height="246" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1589635658221" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1589875989897" />
@@ -212,10 +212,10 @@
     <state width="1398" height="268" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1585887229297" />
     <state width="1398" height="167" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1585578479098" />
     <state width="1398" height="184" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1586922119410" />
-    <state width="1878" height="339" key="GridCell.Tab.0.right" timestamp="1591261101741">
+    <state width="1878" height="339" key="GridCell.Tab.0.right" timestamp="1591453685080">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="339" key="GridCell.Tab.0.right/0.1103.1440.809/0.23.1920.1057@0.23.1920.1057" timestamp="1591261101741" />
+    <state width="1878" height="339" key="GridCell.Tab.0.right/0.1103.1440.809/0.23.1920.1057@0.23.1920.1057" timestamp="1591453685080" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.809@0.23.1440.809" timestamp="1590305703998" />
     <state width="1398" height="246" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1589635658223" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1589875989898" />
