@@ -42,7 +42,7 @@ func minSumOfLengths(arr []int, target int) int {
 			left ++
 			cnt --
 		}
-		fmt.Println(left,right)
+		fmt.Println(left,right,cur)
 
 	}
 
@@ -59,8 +59,8 @@ func minSumOfLengths(arr []int, target int) int {
 
 func main() {
 
-	a := []int{34,6,8,1,1,2,45,2,2,1,1,1,50,1,1}
-
-	fmt.Println(minSumOfLengths(a,52))
+	//a := []int{34,6,8,1,1,2,45,2,2,1,1,1,50,1,1}
+	a := []int{3,2,2,4,3}
+	fmt.Println(minSumOfLengths(a,3))
 	
 }
