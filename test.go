@@ -1,31 +1,18 @@
 package main
 
-import (
-	"fmt"
-	"strings"
-)
-
-func canWin(n int) bool {
-
-	flag := make([]bool,n+1)
-	flag[0] = false
-	for i := 1 ; i <= n ; i++{
-		flag[i] = false
-		for j := 1 ; j <= 3 && i - j >= 0 && flag[i] == false; j++{
-			flag[j] = !flag[i-j]
-		}
-	}
-	return flag[n]
-}
+import "fmt"
 
 func main() {
 
-
-	a  := "abc"
-
-	b := strings.ToTitle(a)
-	a = strings.Title(a)
-	fmt.Println(a,b)
+	//var name string
+	var age int
+	//var a [5]int
+	//for i := 0 ; i < len(a) ; i ++{
+	//	fmt.Scanf("%s",&a[i])
+	//}
+	//fmt.Println(a)
+	fmt.Scanln(&age)
+	fmt.Println(age)
 }
 
 
