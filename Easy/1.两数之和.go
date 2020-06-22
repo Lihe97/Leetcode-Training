@@ -13,26 +13,40 @@ package main
 //用hash 存储的元素是[数组元素，数组索引]
 import "fmt"
 
+//func twoSum(nums []int, target int) []int {
+//
+//	hashMap := map[int]int{}
+//	res := []int{}
+//	for i:= range nums{
+//		t := target - nums[i]
+//		if _, ok := hashMap [t];ok==true{
+//			res = append(res, hashMap[t])
+//			res = append(res, i)
+//			return res
+//		}
+//		hashMap[nums[i]] = i
+//	}
+//	return nil
+//}
 func twoSum(nums []int, target int) []int {
 
-	hashMap := map[int]int{}
+	mp := map[int]int{}
 	res := []int{}
-	for i:= range nums{
-		t := target - nums[i]
-		if _, ok := hashMap [t];ok==true{
-			res = append(res, hashMap[t])
-			res = append(res, i)
+	for i := 0 ; i < len(nums) ; i ++{
+
+
+		if _,ok := mp[target-nums[i]];ok{
+			res = append(res,mp[target-nums[i]])
+			res = append(res,i)
 
 			return res
-
 		}
+		mp[nums[i]] = i
 
-		hashMap[nums[i]] = i
 	}
 	return nil
-
 }
 func main() {
-	a := []int{2,7,11}
-	fmt.Println(twoSum(a,9))
+	a := []int{3,2,4}
+	fmt.Println(twoSum(a,6))
 }
