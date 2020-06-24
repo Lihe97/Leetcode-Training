@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="'first &amp; test'">
-      <change afterPath="$PROJECT_DIR$/Medium/面试题 16.18. 模式匹配.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_Contest/t1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_Contest/t2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_Contest/t3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/16. 最接近的三数之和.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Easy/1.两数之和.go" beforeDir="false" afterPath="$PROJECT_DIR$/Easy/1.两数之和.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Medium/3. 无重复字符的最长子串.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/3. 无重复字符的最长子串.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
