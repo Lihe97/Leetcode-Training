@@ -20,7 +20,6 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 		}
 		cnt ++
 	}
-	//fmt.Println(cur1,cur2)
 	if cur1 == len1{
 		for cnt <= mid{
 			temp = append(temp,nums2[cur2])

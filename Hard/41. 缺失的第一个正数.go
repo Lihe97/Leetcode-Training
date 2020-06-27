@@ -5,7 +5,6 @@ import "fmt"
 func firstMissingPositive(nums []int) int {
 
 	for i := 0 ; i < len(nums) ; i ++{
-
 		for nums[i]>=1 && nums[i] <= len(nums) && nums[nums[i] - 1] != nums[i]{
 			swap(&nums[i],&nums[nums[i]-1])
 		}
@@ -15,10 +14,9 @@ func firstMissingPositive(nums []int) int {
 			return i + 1
 		}
 	}
-
 	return len(nums) + 1
-
 }
+
 func swap(a,b *int){
 	*a = *a ^ *b
 	*b = *a ^ *b
