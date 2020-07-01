@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="'first &amp; test'">
-      <change afterPath="$PROJECT_DIR$/Medium/718. 最长重复子数组.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/1372. 二叉树中的最长交错路径.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_Contest/t1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week_Contest/1496. 判断路径是否相交 .go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_Contest/t2.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week_Contest/1497. 检查数组对是否可以被 k 整除.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_Contest/t3.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/1353. 最多可以参加的会议数目.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t.go" beforeDir="false" afterPath="$PROJECT_DIR$/t.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
