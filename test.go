@@ -1,50 +1,41 @@
 package main
 
-type TreeNode struct {
-	Val int
-	Left *TreeNode
-	Right *TreeNode
-}
+import (
+	"fmt"
+)
 
+func patterRec(pattern string,str string) bool{
 
-func path(root *TreeNode) int{
-
-	if root == nil{
-		return 0
+	temp := []string{}
+	cur := 0
+	for i := 0 ; i < len(str);  i ++{
+		if str[i] == ' '{
+			temp = append(temp,str[cur:i])
+			cur = i + 1
+		}
 	}
-
-	left := f(root,'L',0)
-
-	right := f(root,'R',0)
-
-	return max(left,right) - 1
-}
-
-func f(root *TreeNode,option byte,temp int) int {
-
-	if root == nil{
-		return temp
+	temp = append(temp,str[cur:len(str)])
+	if len(pattern) != len(temp) {
+		return false
 	}
-	if option == 'L'{
-		return f(root.Right,'R',temp+1)
-	}else{
-		return f(root.Left,'L',temp+1)
+	mp := map[byte]string{}
+	for i := 0 ; i < len(pattern) ; i ++{
+		if _,ok := mp[pattern[i]];ok{
+			if mp[pattern[i]] != temp[i]{
+				return false
+			}
+		}else{
+			mp[pattern[i]] = temp[i]
+		}
 	}
-
+	return true
 }
-
-func max(a,b int) int  {
-	if a > b{
-		return a
-	}else{
-		return b
-	}
-}
-
 
 
 
 func main() {
+
+	fmt.Println(test("baab","北京 杭州 杭州 北京"))
 
 
 }
