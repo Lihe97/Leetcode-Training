@@ -35,7 +35,7 @@ func patterRec(pattern string,str string) bool{
 
 func main() {
 
-	fmt.Println(test("baab","北京 杭州 杭州 北京"))
+	fmt.Println(10&(-10))
 
 
 }
