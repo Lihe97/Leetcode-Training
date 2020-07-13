@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="'first &amp; test'">
-      <change afterPath="$PROJECT_DIR$/Medium/6. Z 字形变换.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_Contest/5177. 转变日期格式.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_Contest/5445. 子数组和排序后的区间和.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_Contest/5446. 三次操作后最大值与最小值的最小差.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_Contest/5447. 石子游戏 IV.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_Contest/5460. 好数对的数目.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_Contest/5461. 仅含 1 的子串数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_Contest/t3.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t.go" beforeDir="false" afterPath="$PROJECT_DIR$/t.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
