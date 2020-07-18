@@ -1,14 +1,27 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-func main() {
-	//var a byte
+func tt1(nums []int) []int{
+	res := []int{}
 
-	b := make([]int,2)
-	for i := 0 ; i < len(b) ; i ++{
-		fmt.Scanf("%d",&b[i])
+	for i := 0 ; i < len(nums) ; i ++{
+
 	}
-	fmt.Println(b)
 
+	return res
+}
+func main() {
+
+	var n int
+	fmt.Scan(&n)
+	nums := make([]int,n)
+
+	for i := 0; i < n; i++ {
+		fmt.Scan(&nums[i])
+	}
+
+	fmt.Println(2)
 }
