@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="'first &amp; test'">
-      <change afterPath="$PROJECT_DIR$/Easy/剑指 Offer 11. 旋转数组的最小数字.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/27. 移除元素.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Easy/28. 实现 strStr().go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
