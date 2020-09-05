@@ -1,22 +1,39 @@
 package main
 
-import (
-	"fmt"
-)
-func t1(n int) int{
+import "fmt"
 
+func containsPattern(arr []int, m int, k int) bool {
 
-	if n == 1 {
-		return 1
-	}else if n == 2{
-		return 2
+	left := 0
+	right := m*k - 1
+
+	for right < len(arr) {
+		flag := true
+		for j := 0  ; j  < m ; j ++{
+			for i := left + m + j ; i <= right ; i+= m{
+				if arr[i] != arr[i-m]{
+					flag = false
+					break
+				}
+			}
+			if !flag{
+				break
+			}
+		}
+		if flag{
+			return true
+		}else{
+			right ++
+			left ++
+		}
 	}
-	return t1(n-1) + t1(n-2)
+	return false
 }
+
+
 func main() {
-	var n int
 
-	fmt.Scan(&n)
+	fmt.Println(containsPattern([]int{1,2,1,2,1,3},2,3))
 
-	fmt.Println(t1(n))
+
 }

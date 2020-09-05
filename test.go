@@ -1,54 +1,36 @@
 package main
 
-import (
-	"fmt"
-)
+func numOfSubarrays(arr []int) int {
 
-func t(s1 string,s2 string)  {
-	if len(s1) < len(s2){
-		fmt.Println(0)
-		return
+	res := 0
+	cnt := 0
+	for i := 0 ; i < len(arr) ; i ++{
+		if arr[i] % 2 == 1{
+			cnt ++
+		}
 	}
-	min := 1<<32
-
-	for i := 0 ; i < len(s1) ; i ++{
-
-			if s1[i] == s2[0]{
-				a := i + 1
-				b := 1
-				for a < len(s1) && b < len(s2) {
-					if s1[a] == s2[b]{
-						b ++
-					}
-					a ++
-				}
-				//fmt.Println(a,b)
-				if b == len(s2){
-					if a - i < min{
-						min = a - i
-					}
-				}
-			}
+	cnt2 := len(arr) - cnt
+	if cnt == 0{
+		return 0
 	}
-	if min == 1 <<32{
-		fmt.Println(0)
-		return
+	for j := 1 ; j <= cnt ; j += 2{
+		res += f(cnt)/(f(j)*f(cnt-j))
 	}
-	fmt.Println(min)
+	return res
 
 }
-
-
+func f(x int) int{
+	y := 1
+	for i := 1 ; i <= x; i ++{
+		y = y*i
+	}
+	return y
+}
 
 
 func main() {
 
-	var s1 string
-	var s2 string
-	fmt.Scan(&s1)
-	fmt.Scan(&s2)
-
-	t(s1,s2)
+	v
 
 
 }
