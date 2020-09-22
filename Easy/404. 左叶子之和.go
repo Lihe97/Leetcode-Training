@@ -13,7 +13,7 @@ func sumOfLeftLeaves(root *TreeNode) int {
 	return res
 }
 func sum(root *TreeNode,res *int){
-	if root.Left!= nil && root.Left.Left == nil{
+	if root.Left!= nil && root.Left.Left == nil && root.Left.Right == nil{
 		*res += root.Left.Val
 	}
 	if root.Left!= nil{
