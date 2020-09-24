@@ -1,62 +1,43 @@
 package main
 
-import (
-	"fmt"
-	"sort"
-)
-func tt2(n int,nums [][]int,c0,d0 int) int{
-	res := 0
-	sort.Slice(nums, func(i, j int) bool {
-		if float64(nums[i][3])/float64(nums[i][2]) == float64(nums[j][3])/float64(nums[j][2]){
-			return nums[i][2] < nums[j][2]
-		}
-		return float64(nums[i][3])/float64(nums[i][2]) > float64(nums[j][3])/float64(nums[j][2])
-	})
+import "fmt"
+
+func t1(nums [][2]int)  {
+
+	m := -1
+
 	for i := 0 ; i < len(nums) ; i ++{
-		if n <= 0 {
-			break
+		if nums[i][1] > m{
+			m = nums[i][1]
 		}
-		temp1 := nums[i][0]/nums[i][1]
-		temp2 := n/nums[i][2]
-		t := min(temp1,temp2)
-		if t * nums[i][3] < n/c0 * d0{
-			break
+	}
+	flag := make([]bool,m+1)
+	for i := 0 ; i < len(nums) ; i ++{
+		for j := nums[i][0] ; j <= nums[i][1] - 1; j ++{
+			flag[j] = true
 		}
-		res += t*nums[i][3]
-		n -= t*nums[i][2]
 	}
-	if n != 0{
-		res = res +  n/c0 * d0
+	sum := 0
+	for i := 0 ; i < len(flag) ; i ++{
+		if flag[i]{
+			sum ++
+		}
 	}
-	return res
+	fmt.Print(sum)
+
 }
-func min(a,b int) int  {
-	if a < b {
-		return a
-	}else{
-		return b
-	}
-}
+
 func main() {
 
 	var n int
-	var m int
-	var c0 int
-	var d0 int
+
 	fmt.Scan(&n)
-	fmt.Scan(&m)
-	fmt.Scan(&c0)
-	fmt.Scan(&d0)
-	nums := [][]int{}
+	nums := make([][2]int,n)
 
-
-	for i := 0 ; i < m ; i ++{
-		temp := make([]int,4)
-		for j := 0 ; j < 4; j ++{
-			fmt.Scan(&temp[j])
-		}
-		nums = append(nums,temp)
+	for i := 0 ; i < n ; i ++{
+		fmt.Scan(&nums[i][0])
+		fmt.Scan(&nums[i][1])
 	}
-	fmt.Println(tt2(n,nums,c0,d0))
+	t1(nums)
 
 }

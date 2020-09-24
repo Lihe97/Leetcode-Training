@@ -1,48 +1,50 @@
 package main
 
-import (
-	"fmt"
-	"sort"
-)
+import "fmt"
 
+func t2(nums []int){
+	left := 0
+	right := 0
+	max := -1
 
-/**
- * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
- * 实现Sort Merge Join
- * @param setA int整型一维数组
- * @param setB int整型一维数组
- * @return int整型二维数组
- */
-func sortMergeJoin( setA []int ,  setB []int ) [][]int {
-	// write code here
+	maxl := -1
+	maxr := -1
 
-	res := [][]int{}
-	temp := [][3]int{}
-	for i := 0 ; i < len(setA) ; i ++{
-		temp = append(temp,[3]int{setA[i],i,-1})
-	}
-	for i := 0 ; i < len(setB) ; i ++{
-		temp = append(temp,[3]int{setB[i],i,1})
-	}
-
-	sort.Slice(temp, func(i, j int) bool {
-		return temp[i][0] < temp[j][0]
-	})
-
-	for i := 0 ; i < len(temp) ; i ++{
-		for j := i + 1 ; j < len(temp) && temp[j][0] == temp[i][0] ; j ++{
-			if temp[j][2] != temp[i][2]{
-				res = append(res,[]int{temp[i][1],temp[j][1]})
+	for right < len(nums) - 1 {
+		if nums[right+1] > nums[right]{
+			right ++
+			if right - left + 1 > max{
+				maxr = right
+				maxl = left
+				max = right - left + 1
 			}
+		}else{
+			right ++
+			left = right
 		}
+		//fmt.Println("??")
+		//fmt.Println(right,maxl,maxr)
 	}
+	if maxr == -1{
+		fmt.Print("N")
+		return
+	}
+	temp := nums[maxl:maxr+1]
+	for i := 0 ; i  < len(temp) ;  i ++{
+		fmt.Print(temp[i])
+		fmt.Print(" ")
+	}
+	//fmt.Print(nums[maxl:maxr+1])
 
-	return res
 }
+
 func main() {
 
-	a := []int{1,2,3,3,4,4,5}
-	b := []int{1,2,4,4,7,8}
-	fmt.Println(sortMergeJoin(a,b))
-
+	var n int
+	fmt.Scan(&n)
+	nums := make([]int,n)
+	for i := 0 ; i < n ; i ++{
+		fmt.Scan(&nums[i])
+	}
+	t2(nums)
 }

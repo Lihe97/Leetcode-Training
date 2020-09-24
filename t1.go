@@ -2,55 +2,51 @@ package main
 
 import "fmt"
 
-/**
- * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
- * 对输入集合做hash join，输出关联后的下标的二元组集合
- * @param setA int整型一维数组 输入集合1
- * @param setB int整型一维数组 输入集合2
- * @return int整型二维数组
- */
-func hashJoin( setA []int ,  setB []int ) [][]int {
-	// write code here
+func t1(nums [][]int)  {
 
-	res := [][]int{}
-
-	mp := map[int][]int{}
-
-	if len(setA) <= len(setB){
-		for i := 0 ; i < len(setA) ; i ++{
-			mp[setA[i]] = append(mp[setA[i]],i)
-		}
-		for i := 0 ; i < len(setB) ; i ++{
-			for a,b := range mp{
-				if a == setB[i]{
-					for j := 0 ; j < len(b) ; j ++{
-						res = append(res,[]int{b[j],i})
-					}
-				}
-			}
-		}
-	}else{
-		for i := 0 ; i < len(setB) ; i ++{
-			mp[setB[i]] = append(mp[setB[i]],i)
-		}
-		for i := 0 ; i < len(setA) ; i ++{
-			for a,b := range mp{
-				if a == setA[i]{
-					for j := 0 ; j < len(b) ; j ++{
-						res = append(res,[]int{i,b[j]})
-					}
-				}
-			}
+	for i := 0 ; i < len(nums)/2 ; i ++{
+		nums[i],nums[len(nums)-i-1] = nums[len(nums)-i-1],nums[i]
+	}
+	for i := 0 ; i < len(nums) ; i ++{
+		for j := 0 ;j < len(nums[i])/2 ; j ++{
+			nums[i][j],nums[i][len(nums[i])-j-1] = nums[i][len(nums[i])-j-1],nums[i][j]
 		}
 	}
+	for i := 0 ; i < len(nums); i ++{
+		for j := 0 ; j  < len(nums) ; j ++{
+			fmt.Print(nums[i][j])
+			fmt.Print(" ")
+		}
+		fmt.Println()
+	}
 
-	return res
 
 }
 
 func main(){
 
-	a := []int{1,2,3,3,4,4,5}
-	b := []int{1,2,4,4,7,8}
-	fmt.Println(hashJoin(a,b))
+	var n int
+	fmt.Scan(&n)
+	nums := make([][]int,n)
+	for i := 0 ; i < n ; i ++{
+		temp := make([]int,n)
+		nums[i] = temp
+	}
+	for i := 0 ; i < n ; i ++{
+		for j := 0 ; j < n ; j ++{
+			fmt.Scan(&nums[i][j])
+		}
+	}
+
+	t1(nums)
+
 }
+//3
+//1 2 3
+//4 5 6
+//7 8 9
+//4
+//1 2 3 4
+//5 6 7 8
+//9 10 11 12
+//13 14 15 16
