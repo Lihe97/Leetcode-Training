@@ -1,52 +1,44 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-func t1(nums [][]int)  {
+func t1(nums1 []int,nums2 []int,a int){
+	min := 1<<32
 
-	for i := 0 ; i < len(nums)/2 ; i ++{
-		nums[i],nums[len(nums)-i-1] = nums[len(nums)-i-1],nums[i]
-	}
-	for i := 0 ; i < len(nums) ; i ++{
-		for j := 0 ;j < len(nums[i])/2 ; j ++{
-			nums[i][j],nums[i][len(nums[i])-j-1] = nums[i][len(nums[i])-j-1],nums[i][j]
+	for i := 0 ; i < len(nums1) ; i ++{
+		for j := 0 ; j < len(nums2) ; j++{
+			if (nums1[i] + nums2[j]) % a < min{
+				min = (nums1[i] + nums2[j]) % a
+			}
 		}
 	}
-	for i := 0 ; i < len(nums); i ++{
-		for j := 0 ; j  < len(nums) ; j ++{
-			fmt.Print(nums[i][j])
-			fmt.Print(" ")
-		}
-		fmt.Println()
-	}
-
-
+	fmt.Println(min)
 }
 
 func main(){
 
-	var n int
-	fmt.Scan(&n)
-	nums := make([][]int,n)
-	for i := 0 ; i < n ; i ++{
-		temp := make([]int,n)
-		nums[i] = temp
-	}
-	for i := 0 ; i < n ; i ++{
-		for j := 0 ; j < n ; j ++{
-			fmt.Scan(&nums[i][j])
-		}
-	}
 
-	t1(nums)
+	var m int
+	var n int
+	var a int
+
+
+	fmt.Scan(&m)
+	fmt.Scan(&n)
+	fmt.Scan(&a)
+
+	nums1 := make([]int,m)
+	nums2 := make([]int,n)
+
+	for i := 0 ; i < m ; i ++{
+		fmt.Scan(&nums1[i])
+	}
+	for i := 0 ; i < n ; i ++{
+		fmt.Scan(&nums2[i])
+	}
+	t1(nums1,nums2,a)
+
 
 }
-//3
-//1 2 3
-//4 5 6
-//7 8 9
-//4
-//1 2 3 4
-//5 6 7 8
-//9 10 11 12
-//13 14 15 16

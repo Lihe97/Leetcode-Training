@@ -2,49 +2,46 @@ package main
 
 import "fmt"
 
-func t2(nums []int){
-	left := 0
-	right := 0
-	max := -1
+func t2(opr [][3]int,nums []int,m int)  {
 
-	maxl := -1
-	maxr := -1
+	dp := make([]int,600000)
+	dp[0] = 1
+	dp[1] = 1
+	for i := 2 ; i < len(dp) ; i ++{
+		dp[i] = dp[i-1] * i
+	}
 
-	for right < len(nums) - 1 {
-		if nums[right+1] > nums[right]{
-			right ++
-			if right - left + 1 > max{
-				maxr = right
-				maxl = left
-				max = right - left + 1
-			}
-		}else{
-			right ++
-			left = right
+	for i := 0 ; i < m ; i++{
+		for j := opr[i][0]-1 ; j <= opr[i][1] - 1 ; j ++{
+
+			temp := j + 1 - opr[i][0] + opr[i][2]
+
+			nums[j] += dp[temp]/(dp[temp-opr[i][2]]*dp[opr[i][2]])
+			//fmt.Println(nums,i,j,opr[i],temp)
 		}
-		//fmt.Println("??")
-		//fmt.Println(right,maxl,maxr)
 	}
-	if maxr == -1{
-		fmt.Print("N")
-		return
-	}
-	temp := nums[maxl:maxr+1]
-	for i := 0 ; i  < len(temp) ;  i ++{
-		fmt.Print(temp[i])
+	for i := 0 ; i < len(nums) ; i ++{
+		fmt.Print(nums[i]%998244353)
 		fmt.Print(" ")
 	}
-	//fmt.Print(nums[maxl:maxr+1])
 
 }
 
 func main() {
 
+
 	var n int
+	var m int
 	fmt.Scan(&n)
+	fmt.Scan(&m)
 	nums := make([]int,n)
-	for i := 0 ; i < n ; i ++{
-		fmt.Scan(&nums[i])
+	opr := make([][3]int,m)
+
+	for i := 0 ; i < m ; i ++{
+		for j := 0 ; j < 3; j ++{
+			fmt.Scan(&opr[i][j])
+		}
 	}
-	t2(nums)
+	t2(opr,nums,m)
+
 }

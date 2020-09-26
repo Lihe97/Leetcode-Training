@@ -4,34 +4,45 @@ import (
 	"fmt"
 )
 
+//func subsets(nums []int) [][]int {
+//
+//	n  := len(nums)
+//
+//	res := [][]int{}
+//
+//	for i  := 0 ; i < 1<<n ; i ++{
+//		temp := []int{}
+//
+//		for j := 0 ; j < len(nums) ; j ++{
+//			if i >> j & 1 == 1{
+//				temp = append(temp,nums[j])
+//			}
+//		}
+//		res = append(res,temp)
+//	}
+//	return res
+//}
+
 func subsets(nums []int) [][]int {
 
-	res:= make([][]int,1<<len(nums))
-	if nums == nil{
-		res[0] =[]int{}
-		return res
-	}
-	res[0] = []int{nums[0]}
-	//res[1] = []int{}
-	for i :=1 ;i <len(nums); i++{
-		fmt.Println(res)
-		fun(res,1<<i-1,nums[i])
-	}
-	res[1<<len(nums) -1] = []int{}
+	res := [][]int{}
+
+
+	dfs(0,nums,&res,[]int{})
+
 	return res
 }
-func fun(a [][]int,l int,x int){
-	for i:=0 ; i <l ;i++{
-		//a[i+l] = []int{}
-		//fmt.Println(a[i],x)
-
-
-		a[i+l] = append(a[i], x)
-		//fmt.Println(a[i+l])
+func dfs(cur int,nums []int,res *[][]int,temp []int)  {
+	if cur == len(nums){
+		*res = append(*res,append([]int{},temp...))
+		return
 	}
-	a[2*l] =[]int{x}
-
+	temp = append(temp,nums[cur])
+	dfs(cur + 1,nums,res,temp)
+	temp = temp[:len(temp)-1]
+	dfs(cur+1,nums,res,temp)
 }
+
 
 func main() {
 	nums:=[]int{1,2,3,4,5,6}

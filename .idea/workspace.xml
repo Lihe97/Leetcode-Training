@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c75395c-adf2-43bc-ab89-2b470d90051b" name="Default Changelist" comment="'first &amp; test'">
-      <change afterPath="$PROJECT_DIR$/Easy/231. 2的幂.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/326. 3的幂.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/501. 二叉搜索树中的众数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy/617. 合并二叉树.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/106. 从中序与后序遍历序列构造二叉树.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium/437. 路径总和 III.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Medium/94. 二叉树的中序遍历.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/94. 二叉树的中序遍历.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium/144. 二叉树的前序遍历.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/144. 二叉树的前序遍历.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium/78.子集.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/78.子集.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium/79. 单词搜索.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/79. 单词搜索.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium/95. 不同的二叉搜索树 II.go" beforeDir="false" afterPath="$PROJECT_DIR$/Medium/95. 不同的二叉搜索树 II.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/t1.go" beforeDir="false" afterPath="$PROJECT_DIR$/t1.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/t2.go" beforeDir="false" afterPath="$PROJECT_DIR$/t2.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/t3.go" beforeDir="false" afterPath="$PROJECT_DIR$/t3.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/t4.go" beforeDir="false" afterPath="$PROJECT_DIR$/t4.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t5.go" beforeDir="false" afterPath="$PROJECT_DIR$/t5.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +65,12 @@
       <recent name="$PROJECT_DIR$/Easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build t4.go">
-    <configuration name="go build 231. 2的幂.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build t2.go">
+    <configuration name="go build 106. 从中序与后序遍历序列构造二叉树.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Easy/231. 2的幂.go" />
+      <filePath value="$PROJECT_DIR$/Medium/106. 从中序与后序遍历序列构造二叉树.go" />
       <package value="Leetcode-Training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -84,11 +84,11 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build t1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 79. 单词搜索.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/t1.go" />
+      <filePath value="$PROJECT_DIR$/Medium/79. 单词搜索.go" />
       <package value="Leetcode-Training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -102,6 +102,15 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build t3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode-Training" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/t3.go" />
+      <package value="Leetcode-Training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build t4.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Leetcode-Training" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -111,22 +120,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build t5.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode-Training" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/t5.go" />
-      <package value="Leetcode-Training" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build t4.go" />
         <item itemvalue="Go Build.go build t2.go" />
-        <item itemvalue="Go Build.go build t5.go" />
-        <item itemvalue="Go Build.go build t1.go" />
-        <item itemvalue="Go Build.go build 231. 2的幂.go" />
+        <item itemvalue="Go Build.go build t3.go" />
+        <item itemvalue="Go Build.go build 106. 从中序与后序遍历序列构造二叉树.go" />
+        <item itemvalue="Go Build.go build 79. 单词搜索.go" />
+        <item itemvalue="Go Build.go build t4.go" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +154,7 @@
       <screen x="0" y="1103" width="1440" height="877" />
     </state>
     <state x="413" y="1191" key="#go_build_Leetcode-Training/0.1103.1440.877/0.23.1920.989@0.1103.1440.877" timestamp="1594777735570" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1600865412117">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1601085953201">
       <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state width="1878" height="258" key="GridCell.Tab.0.bottom/0.1103.1440.809/0.23.1920.1057@0.1103.1440.809" timestamp="1598775052874" />
@@ -166,13 +166,13 @@
     <state width="1878" height="895" key="GridCell.Tab.0.bottom/0.1103.1440.814/0.23.1920.1057@0.23.1920.1057" timestamp="1594535993231" />
     <state width="1878" height="424" key="GridCell.Tab.0.bottom/0.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1593921561063" />
     <state width="1398" height="332" key="GridCell.Tab.0.bottom/0.1103.1440.877/0.23.1920.989@0.1103.1440.877" timestamp="1594777777269" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.809/1440.23.1440.877@0.23.1440.809" timestamp="1600865412117" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.809/1440.23.1440.877@0.23.1440.809" timestamp="1601017001207" />
     <state width="1398" height="270" key="GridCell.Tab.0.bottom/0.23.1440.809/1440.23.1440.877@1440.23.1440.877" timestamp="1600344146099" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.809@0.23.1440.809" timestamp="1600864980192" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.811/1440.23.1440.877@0.23.1440.811" timestamp="1600003531214" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.809@0.23.1440.809" timestamp="1601085953201" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.811/1440.23.1440.877@0.23.1440.811" timestamp="1601016436003" />
     <state width="1398" height="722" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1598011593208" />
     <state width="1398" height="184" key="GridCell.Tab.0.bottom/1440.23.1440.877/0.23.1440.809@0.23.1440.809" timestamp="1599381448271" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1600865412117">
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1601085953201">
       <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state width="1878" height="258" key="GridCell.Tab.0.center/0.1103.1440.809/0.23.1920.1057@0.1103.1440.809" timestamp="1598775052873" />
@@ -184,13 +184,13 @@
     <state width="1878" height="895" key="GridCell.Tab.0.center/0.1103.1440.814/0.23.1920.1057@0.23.1920.1057" timestamp="1594535993231" />
     <state width="1878" height="424" key="GridCell.Tab.0.center/0.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1593921561063" />
     <state width="1398" height="332" key="GridCell.Tab.0.center/0.1103.1440.877/0.23.1920.989@0.1103.1440.877" timestamp="1594777777268" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.809/1440.23.1440.877@0.23.1440.809" timestamp="1600865412117" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.809/1440.23.1440.877@0.23.1440.809" timestamp="1601017001206" />
     <state width="1398" height="270" key="GridCell.Tab.0.center/0.23.1440.809/1440.23.1440.877@1440.23.1440.877" timestamp="1600344146098" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.809@0.23.1440.809" timestamp="1600864980191" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.811/1440.23.1440.877@0.23.1440.811" timestamp="1600003531213" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.809@0.23.1440.809" timestamp="1601085953201" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.811/1440.23.1440.877@0.23.1440.811" timestamp="1601016436003" />
     <state width="1398" height="722" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1598011593207" />
     <state width="1398" height="184" key="GridCell.Tab.0.center/1440.23.1440.877/0.23.1440.809@0.23.1440.809" timestamp="1599381448270" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1600865412116">
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1601085953200">
       <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state width="1878" height="258" key="GridCell.Tab.0.left/0.1103.1440.809/0.23.1920.1057@0.1103.1440.809" timestamp="1598775052873" />
@@ -202,13 +202,13 @@
     <state width="1878" height="895" key="GridCell.Tab.0.left/0.1103.1440.814/0.23.1920.1057@0.23.1920.1057" timestamp="1594535993230" />
     <state width="1878" height="424" key="GridCell.Tab.0.left/0.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1593921561062" />
     <state width="1398" height="332" key="GridCell.Tab.0.left/0.1103.1440.877/0.23.1920.989@0.1103.1440.877" timestamp="1594777777267" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.809/1440.23.1440.877@0.23.1440.809" timestamp="1600865412116" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.809/1440.23.1440.877@0.23.1440.809" timestamp="1601017001206" />
     <state width="1398" height="270" key="GridCell.Tab.0.left/0.23.1440.809/1440.23.1440.877@1440.23.1440.877" timestamp="1600344146098" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.809@0.23.1440.809" timestamp="1600864980191" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.811/1440.23.1440.877@0.23.1440.811" timestamp="1600003531213" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.809@0.23.1440.809" timestamp="1601085953200" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.811/1440.23.1440.877@0.23.1440.811" timestamp="1601016436002" />
     <state width="1398" height="722" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1598011593207" />
     <state width="1398" height="184" key="GridCell.Tab.0.left/1440.23.1440.877/0.23.1440.809@0.23.1440.809" timestamp="1599381448269" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1600865412117">
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1601085953201">
       <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state width="1878" height="258" key="GridCell.Tab.0.right/0.1103.1440.809/0.23.1920.1057@0.1103.1440.809" timestamp="1598775052873" />
@@ -220,10 +220,10 @@
     <state width="1878" height="895" key="GridCell.Tab.0.right/0.1103.1440.814/0.23.1920.1057@0.23.1920.1057" timestamp="1594535993231" />
     <state width="1878" height="424" key="GridCell.Tab.0.right/0.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1593921561063" />
     <state width="1398" height="332" key="GridCell.Tab.0.right/0.1103.1440.877/0.23.1920.989@0.1103.1440.877" timestamp="1594777777268" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.809/1440.23.1440.877@0.23.1440.809" timestamp="1600865412117" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.809/1440.23.1440.877@0.23.1440.809" timestamp="1601017001207" />
     <state width="1398" height="270" key="GridCell.Tab.0.right/0.23.1440.809/1440.23.1440.877@1440.23.1440.877" timestamp="1600344146099" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.809@0.23.1440.809" timestamp="1600864980191" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.811/1440.23.1440.877@0.23.1440.811" timestamp="1600003531213" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.809@0.23.1440.809" timestamp="1601085953201" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.811/1440.23.1440.877@0.23.1440.811" timestamp="1601016436003" />
     <state width="1398" height="722" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1598011593207" />
     <state width="1398" height="184" key="GridCell.Tab.0.right/1440.23.1440.877/0.23.1440.809@0.23.1440.809" timestamp="1599381448270" />
     <state width="1398" height="656" key="GridCell.Tab.1.bottom" timestamp="1599898300727">
