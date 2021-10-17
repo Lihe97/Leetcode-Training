@@ -1,9 +1,7 @@
 package main
 
 
-
 func main()  {
-
 
 
 }
