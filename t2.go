@@ -1,14 +1,20 @@
 package main
 
-import "fmt"
+import (
+	"strings"
+)
 
-func t(){
+func removeOccurrences(s string, part string) string {
 
+	find := strings.Contains(s, part)
+	for find {
+		s = strings.Replace(s, part, "", 1)
+		find = strings.Contains(s, part)
+	}
+	return s
 }
-
 func main() {
 
-	t()
 
 
 
